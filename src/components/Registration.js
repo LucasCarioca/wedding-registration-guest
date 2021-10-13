@@ -18,7 +18,7 @@ function Registration() {
         }).catch(e => setError("Invitation not found"))
     }, []);
 
-    if (registrationKey && registrationKey != "") {
+    if (registrationKey && registrationKey !== "") {
         if (registration) return (
             <Container>
                 <Typography variant="h1">Registration</Typography>
@@ -30,7 +30,7 @@ function Registration() {
                 <Guests/>
             </Container>
         )
-        else if (error != "") return (
+        else if (error !== "") return (
             <Container>
                 <Typography variant="h1">{error}</Typography>
             </Container>

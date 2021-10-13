@@ -1,9 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Container} from "@mui/material";
-import {TextField} from "@mui/material";
 import {Form, Formik} from "formik";
 import {useHistory} from "react-router";
-import {ChevronRight} from "@mui/icons-material";
 import {setRegistrationKey} from "../config";
 
 function Search() {
