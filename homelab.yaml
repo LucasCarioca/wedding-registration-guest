@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: wedding
+  name: wedding-registration-guest-deployment
+  labels:
+    app: wedding-registration-guest
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: wedding-registration-guest
+  template:
+    metadata:
+      labels:
+        app: wedding-registration-guest
+    spec:
+      containers:
+        - name: wedding-registration-guest
+          image: ghcr.io/lucascarioca/wedding-registration-guest:latest
+          ports:
+            - containerPort: 80
+              name: w-r-g-http
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: wedding
+  name: wedding-registration-guest
+spec:
+  type: NodePort
+  ports:
+    - name: tcp
+      port: 80
+      nodePort: 30005
+      targetPort: w-r-g-http
+  selector:
+    app: wedding-registration-guest
