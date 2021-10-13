@@ -20,7 +20,7 @@ function Search() {
                 }}
                 onSubmit={values => {
                     setRegistrationKey(values.registrationKey);
-                    history.push(`/registration/${values.registrationKey}`);
+                    history.push(`/registration`);
                 }}
             >
                 {formik => (
