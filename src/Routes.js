@@ -7,6 +7,9 @@ import Registration from "./components/Registration";
 function Routes() {
     return (
         <Switch>
+            <Route path="/registration/:key">
+                <Registration/>
+            </Route>
             <Route path="/registration">
                 <Registration/>
             </Route>

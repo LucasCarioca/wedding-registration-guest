@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, TextField, Button} from "@mui/material";
+import {Container, TextField, Button, Grid} from "@mui/material";
 import {Form, Formik} from "formik";
 import {createGuest} from "../services/guest.service";
 
@@ -22,39 +22,52 @@ function NewGuestForm({onSubmit}) {
             >
                 {formik => (
                     <Form>
-                        <TextField
-                            {...formik.getFieldProps('firstName')}
-                            label="First Name"
-                            variant="outlined"
-                            style={{margin: "1rem"}}
-                        />
-                        <TextField
-                            {...formik.getFieldProps('lastName')}
-                            label="Last Name"
-                            variant="outlined"
-                            style={{margin: "1rem"}}
-                        />
-                        <TextField
-                            {...formik.getFieldProps('email')}
-                            label="Email"
-                            variant="outlined"
-                            style={{margin: "1rem"}}
-                        />
-                        <TextField
-                            {...formik.getFieldProps('phone')}
-                            label="Phone"
-                            variant="outlined"
-                            style={{margin: "1rem"}}
-                        />
-                        <Button
-                            type="submit"
-                            variant="contained"
-                            color="primary"
-                            size="large"
-                            style={{margin: "1.5rem"}}
-                        >
-                            Add
-                        </Button>
+                        <Grid container spacing={2}>
+                            <Grid item md={3} sm={6} xs={12}>
+                                <TextField
+                                    {...formik.getFieldProps('firstName')}
+                                    label="First Name"
+                                    variant="outlined"
+                                    style={{width: "90%"}}
+                                />
+                            </Grid>
+                            <Grid item md={3} sm={6} xs={12}>
+                                <TextField
+                                    {...formik.getFieldProps('lastName')}
+                                    label="Last Name"
+                                    variant="outlined"
+                                    style={{width: "90%"}}
+                                />
+                            </Grid>
+                            <Grid item md={3} sm={6} xs={12}>
+                                <TextField
+                                    {...formik.getFieldProps('email')}
+                                    label="Email"
+                                    variant="outlined"
+                                    style={{width: "90%"}}
+                                />
+                            </Grid>
+                            <Grid item md={3} sm={6} xs={12}>
+                                <TextField
+                                    {...formik.getFieldProps('phone')}
+                                    label="Phone"
+                                    variant="outlined"
+                                    style={{width: "90%"}}
+                                />
+                            </Grid>
+                            <Grid item md={9}  sm={6} xs={0}/>
+                            <Grid item md={3}  sm={6} xs={12}>
+                                <Button
+                                    type="submit"
+                                    variant="contained"
+                                    color="primary"
+                                    size="large"
+                                    style={{width: "90%"}}
+                                >
+                                    Add
+                                </Button>
+                            </Grid>
+                        </Grid>
                     </Form>
                 )}
             </Formik>

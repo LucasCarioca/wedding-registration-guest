@@ -1,12 +1,16 @@
 import React, {useEffect, useState} from 'react';
 import {Container} from "@mui/material";
-import {getRegistrationKey} from "../config";
-import {useHistory} from "react-router";
+import {getRegistrationKey, setRegistrationKey} from "../config";
+import {useHistory, useParams} from "react-router";
 import {getAllInvitations} from "../services/invitation.service";
 import LinearProgress from "@mui/material/LinearProgress";
 import Guests from "./Guests";
 
 function Registration() {
+    const {key} = useParams();
+    if (key) {
+        setRegistrationKey(key);
+    }
     const [registration, setRegistration] = useState();
     const [error, setError] = useState("");
     const history = useHistory();
