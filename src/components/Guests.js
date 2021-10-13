@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import {Typography} from "@mui/material";
 import GuestList from "./GuestList";
 import {getAllGuests} from "../services/guest.service";
 import NewGuestForm from "./NewGuestForm";
