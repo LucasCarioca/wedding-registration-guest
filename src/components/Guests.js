@@ -16,7 +16,7 @@ function Guests() {
         })
     }, [reload]);
     return (<>
-        <Typography variant="h2">Guests</Typography>
+        <h2>Guests</h2>
         <NewGuestForm onSubmit={refresh}/>
         <GuestList list={guestList} onChange={refresh}/>
     </>)

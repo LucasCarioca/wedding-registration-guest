@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Container, Typography} from "@mui/material";
+import {Container} from "@mui/material";
 import {getRegistrationKey} from "../config";
 import {useHistory} from "react-router";
 import {getAllInvitations} from "../services/invitation.service";
@@ -21,18 +21,18 @@ function Registration() {
     if (registrationKey && registrationKey !== "") {
         if (registration) return (
             <Container>
-                <Typography variant="h1">Registration</Typography>
+                <h1>Registration</h1>
                 <br/>
-                <Typography><span className="label--left">Invitation name:</span> {registration.name}</Typography>
-                <Typography><span className="label--left">Registration key:</span> {registration.registration_key}</Typography>
-                <Typography><span className="label--left">Guest limit:</span> {registration.guest_count}</Typography>
+                <p><span className="label--left">Invitation name:</span> {registration.name}</p>
+                <p><span className="label--left">Registration key:</span> {registration.registration_key}</p>
+                <p><span className="label--left">Guest limit:</span> {registration.guest_count}</p>
                 <br/>
                 <Guests/>
             </Container>
         )
         else if (error !== "") return (
             <Container>
-                <Typography variant="h1">{error}</Typography>
+                <h1>{error}</h1>
             </Container>
         )
         return (
@@ -43,7 +43,7 @@ function Registration() {
         history.push(`/search`);
         return (
             <Container>
-                <Typography variant="h1">Registration not found</Typography>
+                <h1>Registration not found</h1>
             </Container>
         )
     }
