@@ -72,7 +72,7 @@ function NewGuestForm({onSubmit}) {
                 )}
             </Formik>
         </Container>
-    )
+    );
 }
 
 export default NewGuestForm;
