@@ -36,7 +36,8 @@ function Registration() {
         );
         else if (error !== "") return (
             <Container>
-                <h1>{error}</h1>
+                <h1>Error</h1>
+                <p>{error}</p>
             </Container>
         );
         return <LinearProgress/>;
