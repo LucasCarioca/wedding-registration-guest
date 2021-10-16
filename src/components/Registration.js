@@ -33,15 +33,14 @@ function Registration() {
                 <br/>
                 <Guests/>
             </Container>
-        )
+        );
         else if (error !== "") return (
             <Container>
-                <h1>{error}</h1>
+                <h1>Error</h1>
+                <p>{error}</p>
             </Container>
-        )
-        return (
-            <LinearProgress/>
-        )
+        );
+        return <LinearProgress/>;
     }
     else {
         history.push(`/search`);
@@ -49,7 +48,7 @@ function Registration() {
             <Container>
                 <h1>Registration not found</h1>
             </Container>
-        )
+        );
     }
 }
 

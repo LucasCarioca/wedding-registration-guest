@@ -40,7 +40,7 @@ function Search() {
             </Formik>
 
         </Container>
-    )
+    );
 }
 
 export default Search;

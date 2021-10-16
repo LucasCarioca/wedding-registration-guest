@@ -4,21 +4,21 @@ import {DataGrid} from "@mui/x-data-grid";
 import {deleteGuest} from "../services/guest.service";
 
 function GuestList({list, onChange}) {
-    const [selectedList, setSelectedList] = useState([])
+    const [selectedList, setSelectedList] = useState([]);
     const columns = [
         {field: "first_name", headerName: "First Name", width: 100},
         {field: "last_name", headerName: "Last Name", width: 100},
     ];
     const handleSelection = (s) => {
-        setSelectedList(s)
+        setSelectedList(s);
     }
 
     const deleteSelection = () => {
         selectedList.forEach(i => {
             deleteGuest(i).finally(() => {
-                onChange()
-            })
-        })
+                onChange();
+            });
+        });
     }
 
     return (
@@ -35,7 +35,7 @@ function GuestList({list, onChange}) {
                 onSelectionModelChange={handleSelection}
             />
         </Container>
-    )
+    );
 }
 
 export default GuestList;
