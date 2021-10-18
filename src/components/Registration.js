@@ -25,7 +25,7 @@ function Registration() {
   if (registrationKey && registrationKey !== '') {
     if (registration) {
       return (
-        <Container>
+        <Container style={{marginTop: '2rem'}}>
           <h1>Registration</h1>
           <br/>
           <p><span className="label--left">Invitation name:</span> {registration.name}</p>
