@@ -6,9 +6,7 @@ function App() {
   return (
     <Router>
       <div>
-        <div style={{marginTop: '2rem'}}>
-          <Routes/>
-        </div>
+        <Routes/>
       </div>
     </Router>
   );

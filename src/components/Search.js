@@ -1,5 +1,4 @@
 import React from 'react';
-import {Container} from '@mui/material';
 import {Form, Formik} from 'formik';
 import {useHistory} from 'react-router';
 import {setRegistrationKey} from '../config';
@@ -7,27 +6,24 @@ import {setRegistrationKey} from '../config';
 function Search() {
   const history = useHistory();
   return (
-    <Container style={{
-      height: '90vh',
-      width: '100vw',
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center'
-    }}>
+    <div className="hero">
+      <div style={{height: "200px"}}></div>
+      <h1 className="hero--title">Lucas & Karen</h1>
+      <h2 className="hero--sub-title">8/16/2022</h2>
       <Formik
         initialValues={{
           registrationKey: ''
         }}
-        onSubmit={(values) => {
+        onSubmit={values => {
           setRegistrationKey(values.registrationKey);
           history.push(`/registration`);
         }}
       >
-        {(formik) => (
+        {formik => (
           <Form>
             <div style={{
-              display: 'flex',
-              justifyContent: 'center'
+              display: "flex",
+              justifyContent: "center"
             }}>
               <input
                 className="registration-key-search"
@@ -38,8 +34,9 @@ function Search() {
           </Form>
         )}
       </Formik>
-
-    </Container>
+      <div className="hero--blur"></div>
+      {/*</Container>*/}
+    </div>
   );
 }
 
