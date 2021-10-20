@@ -24,7 +24,21 @@ function GuestList({list, onChange}) {
   return (
     <Container style={{height: '600px'}}>
       <div style={{display: 'flex', justifyContent: 'flex-end', padding: '1rem'}}>
-        {selectedList.length > 0 ? <Button variant="contained" color="secondary" onClick={deleteSelection}>Delete</Button> : null}
+        {selectedList.length > 0 ?
+          <Button
+            variant="contained"
+            color="secondary"
+            onClick={deleteSelection}
+          >
+            Delete
+          </Button> :
+          <Button
+            variant="contained"
+            disabled="disabled"
+          >
+            Delete
+          </Button>
+        }
       </div>
       <DataGrid
         rows={list}
