@@ -35,7 +35,6 @@ function Search() {
         )}
       </Formik>
       <div className="hero--blur"></div>
-      {/* </Container>*/}
     </div>
   );
 }
