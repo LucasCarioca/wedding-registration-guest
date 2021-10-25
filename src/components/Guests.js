@@ -26,7 +26,14 @@ function Guests() {
       </>
     );
   }
-  if (loading) return <LinearProgress/>;
+  if (loading) {
+    return (
+      <>
+        <h1>Loading</h1>
+        <LinearProgress/>
+      </>
+    );
+  }
   return (
     <>
       <h2>Guests</h2>
