@@ -26,6 +26,7 @@ function GuestList({list, onChange}) {
       <div style={{display: 'flex', justifyContent: 'flex-end', padding: '1rem'}}>
         {selectedList.length > 0 ?
           <Button
+            data-testid="deleteButton"
             variant="contained"
             color="secondary"
             onClick={deleteSelection}
@@ -33,8 +34,9 @@ function GuestList({list, onChange}) {
             Delete
           </Button> :
           <Button
+            data-testid="deleteButton-disabled"
             variant="contained"
-            disabled="disabled"
+            disabled={true}
           >
             Delete
           </Button>
