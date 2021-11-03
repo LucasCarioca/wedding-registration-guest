@@ -55,7 +55,7 @@ function NewGuestForm({onSubmit}) {
                   style={{width: '90%'}}
                 />
               </Grid>
-              <Grid item md={9} sm={6} xs={0}/>
+              <Grid item md={9} sm={6}/>
               <Grid item md={3} sm={6} xs={12}>
                 <Button
                   type="submit"
