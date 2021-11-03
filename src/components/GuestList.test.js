@@ -15,10 +15,10 @@ describe('guestList', function() {
   it('should show invitations in the component', function() {
     const guests = [{
       id: 12345,
-      first_name: "Lucas",
-      last_name: "Desouza",
-      email: "lucas@email.com",
-      phone: "8115553155"
+      first_name: 'Lucas',
+      last_name: 'Desouza',
+      email: 'lucas@email.com',
+      phone: '8115553155'
     }];
     const mockOnChange = jest.fn();
     render(<GuestList list={guests} onChange={mockOnChange}/>);
@@ -28,10 +28,10 @@ describe('guestList', function() {
     deleteGuest.mockResolvedValue();
     const guests = [{
       id: 12345,
-      first_name: "Lucas",
-      last_name: "Desouza",
-      email: "lucas@email.com",
-      phone: "8115553155"
+      first_name: 'Lucas',
+      last_name: 'Desouza',
+      email: 'lucas@email.com',
+      phone: '8115553155'
     }];
     const mockOnChange = jest.fn();
     render(<GuestList list={guests} onChange={mockOnChange}/>);
