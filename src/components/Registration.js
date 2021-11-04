@@ -17,7 +17,7 @@ function Registration() {
   const registrationKey = getRegistrationKey();
 
   useEffect(() => {
-    getAllInvitations().then((r) => {
+    getInvitation().then((r) => {
       setRegistration(r);
     }).catch((e) => setError('Invitation not found'));
   }, []);
