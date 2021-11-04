@@ -5,7 +5,7 @@ import axios from 'axios';
 import {getInvitation} from './invitation.service';
 
 describe('invitation.service', function() {
-  it('should get all invitations', async function() {
+  it('should get invitation for the saved registration key', async function() {
     const expectedData = {fake: 'data'};
     axios.get.mockResolvedValueOnce({data: expectedData});
     const data = await getInvitation();
