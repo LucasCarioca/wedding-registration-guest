@@ -18,7 +18,7 @@ describe('guest.service', function() {
     const expectedFirstName = 'testFirstName';
     const expectedLastName = 'testLastName';
     const expectedEmail = 'lucas@mail.com';
-    const expectedPhone = '8115553126'
+    const expectedPhone = '8115553126';
     axios.post.mockResolvedValueOnce({data: {}});
     createGuest(expectedFirstName, expectedLastName, expectedEmail, expectedPhone);
     expect(axios.post).toHaveBeenCalledWith('http://localhost:8081/api/v1/guests?registration_key=null', {
