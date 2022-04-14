@@ -1,11 +1,11 @@
 import React from 'react';
-import {Container, TextField, Button, Grid} from '@mui/material';
+import {Container, TextField, Button, Grid, Checkbox, FormControlLabel, Tooltip} from '@mui/material';
 import {Form, Formik} from 'formik';
 import {createGuest} from '../services/guest.service';
 
 function NewGuestForm({onSubmit}) {
   const submit = (values) => {
-    createGuest(values.firstName, values.lastName)
+    createGuest(values.firstName, values.lastName, values.email, values.phone, values.emailOptIn, values.smsOptIn)
       .catch((error) => console.error(error))
       .finally(() => onSubmit());
   };
@@ -16,7 +16,13 @@ function NewGuestForm({onSubmit}) {
           firstName: '',
           lastName: '',
           email: '',
-          phone: ''
+          phone: '',
+          emailOptIn: false,
+          smsOptIn: false,
+          streetAddress: '',
+          city: '',
+          state: '',
+          zipCode: '',
         }}
         onSubmit={submit}
       >
@@ -55,6 +61,44 @@ function NewGuestForm({onSubmit}) {
                   style={{width: '90%'}}
                 />
               </Grid>
+
+              <Grid item md={6} sm={6} xs={12}>
+                <FormControlLabel
+                  control={
+                    <Tooltip
+                      disableFocusListener
+                      arrow
+                      title={<h3>Azure Data Explorer</h3>}
+                    >
+                      <Checkbox
+                        {...formik.getFieldProps('emailOptIn')}
+                        name="emailOptIn"
+                        color="primary"
+                      />
+                    </Tooltip>
+                  }
+                  label="Opt in to recieve Email notifications"
+                />
+              </Grid>
+              <Grid item md={6} sm={6} xs={12}>
+                <FormControlLabel
+                  control={
+                    <Tooltip
+                      disableFocusListener
+                      arrow
+                      title={<h3>Azure Data Explorer</h3>}
+                    >
+                      <Checkbox
+                        {...formik.getFieldProps('smsOptIn')}
+                        name="smsOptIn"
+                        color="primary"
+                      />
+                    </Tooltip>
+                  }
+                  label="Opt in to recieve SMS notifications"
+                />
+              </Grid>
+
               <Grid item md={9} sm={6}/>
               <Grid item md={3} sm={6} xs={12}>
                 <Button
@@ -64,7 +108,7 @@ function NewGuestForm({onSubmit}) {
                   size="large"
                   style={{width: '90%'}}
                 >
-                                    Add
+                  Add
                 </Button>
               </Grid>
             </Grid>
