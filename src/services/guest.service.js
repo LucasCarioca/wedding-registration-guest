@@ -15,7 +15,7 @@ export async function deleteGuest(id) {
   return res.data;
 }
 
-export async function createGuest(firstName, lastName, email, phone) {
+export async function createGuest(firstName, lastName, email, phone, emailOptIn, smsOptIn) {
   const apiKey = getRegistrationKey();
   const host = getHost();
   const res = await axios.post(
@@ -24,7 +24,9 @@ export async function createGuest(firstName, lastName, email, phone) {
       first_name: firstName,
       last_name: lastName,
       email,
-      phone
+      phone,
+      email_opt_in: emailOptIn,
+      sms_opt_in: smsOptIn
     }
   );
   return res.data;
