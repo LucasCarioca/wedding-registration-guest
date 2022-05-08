@@ -24,6 +24,11 @@ html, body {
   z-index: 2;
 }
 
+.styled-nav-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .registration-key-search:focus {
   outline: none;
   box-shadow: 4px 4px 4px #48dbfb;

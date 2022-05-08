@@ -1,12 +1,13 @@
 import React, {useEffect, useState} from 'react';
-import {Container} from '@mui/material';
 import {getRegistrationKey, setRegistrationKey} from '../config';
 import {useHistory, useParams} from 'react-router';
 import {getInvitation} from '../services/invitation.service';
 import LinearProgress from '@mui/material/LinearProgress';
-import Guests from './Guests';
+import InvitationHome from './InvitationHome';
+import InvitationNavBar from './InvitationNavBar';
+import {Container} from '@mui/material';
 
-function Registration() {
+function InvitationPage() {
   const {key} = useParams();
   if (key) {
     setRegistrationKey(key);
@@ -25,15 +26,10 @@ function Registration() {
   if (registrationKey && registrationKey !== '') {
     if (registration) {
       return (
-        <Container style={{marginTop: '2rem'}}>
-          <h1>Registration</h1>
-          <br/>
-          <p><span className="label--left">Invitation name:</span> {registration.name}</p>
-          <p><span className="label--left">Registration key:</span> {registration.registration_key}</p>
-          <p><span className="label--left">Guest limit:</span> {registration.guest_count}</p>
-          <br/>
-          <Guests/>
-        </Container>
+        <>
+          <InvitationNavBar registraion={registration}/>
+          <InvitationHome registration={registration}/>
+        </>
       );
     } else if (error !== '') {
       return (
@@ -54,4 +50,4 @@ function Registration() {
   }
 }
 
-export default Registration;
+export default InvitationPage;
