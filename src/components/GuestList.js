@@ -6,8 +6,8 @@ import {deleteGuest} from '../services/guest.service';
 function GuestList({list, onChange}) {
   const [selectedList, setSelectedList] = useState([]);
   const columns = [
-    {field: 'first_name', headerName: 'First Name', width: 100},
-    {field: 'last_name', headerName: 'Last Name', width: 100},
+    {field: 'first_name', headerName: 'First Name', width: 300},
+    {field: 'last_name', headerName: 'Last Name', width: 300},
   ];
   const handleSelection = (s) => {
     setSelectedList(s);
@@ -38,7 +38,7 @@ function GuestList({list, onChange}) {
             variant="contained"
             disabled={true}
           >
-            Delete
+            Remove
           </Button>
         }
       </div>
