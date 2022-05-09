@@ -3,7 +3,7 @@ import React from 'react';
 import {render, screen} from '@testing-library/react';
 import {getAllGuests} from '../services/guest.service';
 import {getInvitation} from '../services/invitation.service';
-import {MemoryRouter} from "react-router";
+import {MemoryRouter} from 'react-router';
 jest.mock('../services/guest.service', () => ({
   getAllGuests: jest.fn()
 }));
