@@ -2,13 +2,12 @@ import React, {useEffect, useState} from 'react';
 import GuestList from './GuestList';
 import {getAllGuests} from '../services/guest.service';
 import NewGuestForm from './NewGuestForm';
-import {Button, Container, LinearProgress, Typography} from '@mui/material';
-import {useHistory} from 'react-router';
+import {Container, LinearProgress, Typography} from '@mui/material';
 import {getInvitation} from '../services/invitation.service';
 import InvitationNavBar from './InvitationNavBar';
+import SystemOutageError from './SystemOutageError';
 
 function GuestPage() {
-  const history = useHistory();
   const [guestList, setGuestList] = useState([]);
   const [reload, setReload] = useState(Date());
   const [error, setError] = useState('');
@@ -29,20 +28,11 @@ function GuestPage() {
 
   if (error !== '') {
     return (
-      <Container style={{marginTop: '2rem'}}>
-        <Button color={'primary'} onClick={() => history.goBack()}>Back</Button>
-        <Typography variant={'h1'}>Error</Typography>
-        <Typography>{error}</Typography>
-      </Container>
+      <SystemOutageError error={error}/>
     );
   }
   if (loading) {
-    return (
-      <Container style={{marginTop: '2rem'}}>
-        <Typography variant={'h1'}>Loading</Typography>
-        <LinearProgress/>
-      </Container>
-    );
+    return (<LinearProgress/>);
   }
   return (
     <>
@@ -54,6 +44,7 @@ function GuestPage() {
         <Typography>This is not the RSVP but implies that the guests listed are planning on attending.</Typography>
         <br/>
         <Typography><span className={'label--left'}>Invited Guests: </span>{registration.guest_count}</Typography>
+        <br/>
         <NewGuestForm onSubmit={refresh}/>
         <GuestList list={guestList} onChange={refresh}/>
       </Container>

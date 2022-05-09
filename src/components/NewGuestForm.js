@@ -1,12 +1,14 @@
-import React from 'react';
-import {TextField, Button, Grid} from '@mui/material';
+import React, {useState} from 'react';
+import {TextField, Button, Grid, Alert} from '@mui/material';
 import {Form, Formik} from 'formik';
 import {createGuest} from '../services/guest.service';
+import {getAxiosErrorMessage} from '../utils/errors';
 
 function NewGuestForm({onSubmit}) {
+  const [error, setError] = useState();
   const submit = (values) => {
     createGuest(values.firstName, values.lastName, values.email, values.phone, values.emailOptIn, values.smsOptIn)
-      .catch((error) => console.error(error))
+      .catch((error) => setError(getAxiosErrorMessage(error)))
       .finally(() => onSubmit());
   };
   return (
@@ -19,6 +21,11 @@ function NewGuestForm({onSubmit}) {
     >
       {(formik) => (
         <Form>
+          {error && (<>
+            <br/>
+            <Alert severity="error">{error}</Alert>
+            <br/>
+          </>)}
           <Grid container spacing={2}>
             <Grid item md={6} sm={6} xs={12}>
               <TextField
