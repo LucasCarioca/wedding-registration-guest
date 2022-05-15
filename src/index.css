@@ -1,9 +1,10 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 html, body {
-  background: whitesmoke;
+    background: whitesmoke;
 }
 
 section {
@@ -13,14 +14,13 @@ section {
 .parallax-home {
     background-image: url("./desktop.jpg");
     height: 100vh;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .content-home {
-    color:white;
+    color: white;
     padding-top: 70vh;
     vertical-align: middle;
     text-align: center;
@@ -76,21 +76,21 @@ section {
 
 
 .registration-key-search {
-  width: 610px;
-  height: 64px;
-  margin: 0 1rem;
-  background: #FFFFFF;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
-  border: 0;
-  border-radius: 50px;
-  padding-left: 56px;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 32px;
-  letter-spacing: 0.2px;
+    width: 610px;
+    height: 64px;
+    margin: 0 1rem;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+    border: 0;
+    border-radius: 50px;
+    padding-left: 56px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
 
-  color: #716E6E;
-  z-index: 2;
+    color: #716E6E;
+    z-index: 2;
 }
 
 .styled-nav-link {
@@ -99,12 +99,12 @@ section {
 }
 
 .registration-key-search:focus {
-  outline: none;
-  box-shadow: 4px 4px 4px #48dbfb;
+    outline: none;
+    box-shadow: 4px 4px 4px #48dbfb;
 }
 
 .label--left {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 
@@ -126,7 +126,12 @@ section {
     .mobile-nav {
         display: none;
     }
+
+    .parallax-home {
+        background-attachment: fixed;
+    }
 }
+
 @media only screen and (max-width: 700px) {
     .nav-home {
         display: none;
