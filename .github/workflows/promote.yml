@@ -3,7 +3,6 @@ on:
   workflow_dispatch:
 jobs:
   release:
-    needs: ci
     uses: LucasCarioca/workflows/.github/workflows/release-do-yarn.yml@v0.5.1
     with:
       registry: ghcr.io
