@@ -1,3 +1,10 @@
+## [0.1.3](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.1.2...v0.1.3) (2022-05-15)
+
+
+### Bug Fixes
+
+* bump BREAKING CHANGE: bump ([f7b3a58](https://github.com/LucasCarioca/wedding-registration-guest/commit/f7b3a58c70b03a31637c948aef69592f7f119019))
+
 # [0.1.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.0.8...v0.1.0) (2022-05-15)
 
 
