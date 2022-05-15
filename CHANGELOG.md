@@ -1,3 +1,19 @@
+# [0.1.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.0.8...v0.1.0) (2022-05-15)
+
+
+### Bug Fixes
+
+* env file name ([723684b](https://github.com/LucasCarioca/wedding-registration-guest/commit/723684b394bfc671f1a1f3194821a440a757134a))
+* move to using reusable workflow ([9c43443](https://github.com/LucasCarioca/wedding-registration-guest/commit/9c4344366a195fd1373cc57f6f87c80ffe697495))
+* move to using reusable workflow ([b8044ec](https://github.com/LucasCarioca/wedding-registration-guest/commit/b8044ecab096095856089f2a8ae1eeb1a36ae0bb))
+* move to using reusable workflow ([7edb4a0](https://github.com/LucasCarioca/wedding-registration-guest/commit/7edb4a06a544c5eb6488ce1f93d416fb2727bb7c))
+* testing new deployment workflows ([aa414de](https://github.com/LucasCarioca/wedding-registration-guest/commit/aa414de1fa995f121033a62c7a4a46e624361df8))
+
+
+### Features
+
+* adding base for home ([3ab8024](https://github.com/LucasCarioca/wedding-registration-guest/commit/3ab80246c5048085027cc42c6d30e2afaaae9aaa))
+
 ## [0.1.1](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.1.0...v0.1.1) (2022-05-15)
 
 
