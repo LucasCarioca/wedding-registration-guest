@@ -1,5 +1,6 @@
 import React from 'react';
 import {Typography} from '@mui/material';
+import NavBar from './NavBar';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <a href={'#contact'}><Typography>CONTACT</Typography></a>
         <a href={'#registry'}><Typography>REGISTRY</Typography></a>
       </div>
+      <NavBar/>
       <div className={'parallax-home'} id={'home'}>
         <div className={'content-home'}>
           <Typography className={'title-home'} variant={'h1'}>KAREN & LUCAS</Typography>

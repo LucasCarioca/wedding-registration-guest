@@ -108,10 +108,39 @@ section {
 }
 
 
-@media only screen and (max-width: 800px) {  }
+@media only screen and (max-width: 800px) {
+    .title-home {
+        font-size: 52px !important;
+    }
 
+    .sub-title-home {
+        font-size: 36px !important;
+    }
 
+    .home--title-section {
+        font-size: 52px !important;
+    }
+}
 
-@media only screen and (max-width: 800px) {  }
+@media only screen and (min-width: 700px) {
+    .mobile-nav {
+        display: none;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .nav-home {
+        display: none;
+    }
 
-@media only screen and (max-width: 600px) {  }
+    .title-home {
+        font-size: 32px !important;
+    }
+
+    .sub-title-home {
+        font-size: 18px !important;
+    }
+
+    .home--title-section {
+        font-size: 32px !important;
+    }
+}

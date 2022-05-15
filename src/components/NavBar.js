@@ -1,66 +1,76 @@
 import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
-import {AppBar, Box, Button, Divider, Drawer, List, ListItem, ListItemIcon, ListItemText, Toolbar} from '@mui/material';
+import {Button, Drawer, List, ListItem, ListItemText} from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import HomeIcon from '@mui/icons-material/Home';
-import AppsIcon from '@mui/icons-material/Apps';
 
 function NavBar() {
   const [drawerState, setDrawerState] = useState(false);
   return (
-    <>
+    <div className={'mobile-nav'}>
       <Drawer
         anchor="left"
         open={drawerState}
         onClose={() => setDrawerState(!drawerState)}
       >
-        <List sx={{height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
+        <List sx={{height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', width: '80vw'}}>
           <div onClick={() => setDrawerState(!drawerState)}>
-            <Link className="styled-nav-link" to={`/`}>
+            <a className="styled-nav-link" href={'#home'}>
               <ListItem>
-                <ListItemIcon>
-                  <HomeIcon/>
-                </ListItemIcon>
                 <ListItemText>
                   Home
                 </ListItemText>
               </ListItem>
-            </Link>
-            <Divider/>
-            <Link className="styled-nav-link" to={`/search`}>
+            </a>
+            <a className="styled-nav-link" href={'#our-story'}>
               <ListItem>
-                <ListItemIcon>
-                  <AppsIcon/>
-                </ListItemIcon>
                 <ListItemText>
-                  My Invitation
+                  Our Story
                 </ListItemText>
               </ListItem>
-            </Link>
+            </a>
+            <a className="styled-nav-link" href={'#the-wedding'}>
+              <ListItem>
+                <ListItemText>
+                  The Wedding
+                </ListItemText>
+              </ListItem>
+            </a>
+            <a className="styled-nav-link" href={'#gallery'}>
+              <ListItem>
+                <ListItemText>
+                  Gallery
+                </ListItemText>
+              </ListItem>
+            </a>
+            <a className="styled-nav-link" href={'#contact'}>
+              <ListItem>
+                <ListItemText>
+                  Contact
+                </ListItemText>
+              </ListItem>
+            </a>
+            <a className="styled-nav-link" href={'#registry'}>
+              <ListItem>
+                <ListItemText>
+                  Registry
+                </ListItemText>
+              </ListItem>
+            </a>
           </div>
         </List>
       </Drawer>
-      <Box sx={{flexGrow: 1}}>
-        <AppBar position="static" color="transparent">
-          <Toolbar>
-            <div style={{display: 'flex', justifyContent: 'flex-start', width: '100%'}}>
-              <div>
-                <Button onClick={() => setDrawerState(!drawerState)} id="catalog">
-                  <MenuIcon/>
-                </Button>
-              </div>
-              <div>
-                <Link className="styled-nav-link" to="/">
-                  <Button id="catalog">
-                    Karen and Lucas&apos;s Wedding
-                  </Button>
-                </Link>
-              </div>
-            </div>
-          </Toolbar>
-        </AppBar>
-      </Box>
-    </>
+      <div style={{
+        position: 'fixed',
+        top: '0',
+        display: 'flex',
+        justifyContent: 'flex-start',
+        width: '100%',
+        backgroundColor: 'white'
+      }}>
+        <Button style={{color: 'black'}} onClick={() => setDrawerState(!drawerState)} id="catalog">
+          <MenuIcon/>
+        </Button>
+      </div>
+    </div>
   );
 }
 
