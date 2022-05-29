@@ -2,17 +2,18 @@ import React from 'react';
 import {Typography} from '@mui/material';
 import NavBar from './NavBar';
 import {homeLocalization} from './localization';
+import Footer from './Footer';
 
 const Home = () => {
   return (
     <>
       <div className={'nav-home'}>
-        <a href={'#home'}><Typography>HOME</Typography></a>
+        <a href={'#home'}><Typography>{homeLocalization.homeTitle.toUpperCase()}</Typography></a>
         <a href={'#our-story'}><Typography>{homeLocalization.ourStoryTitle.toUpperCase()}</Typography></a>
         <a href={'#the-wedding'}><Typography>{homeLocalization.theWeddingTitle.toUpperCase()}</Typography></a>
         <a href={'#gallery'}><Typography>{homeLocalization.galleryTitle.toUpperCase()}</Typography></a>
         <a href={'#contact'}><Typography>{homeLocalization.contactTitle.toUpperCase()}</Typography></a>
-        <a href={'#registry'}><Typography>REGISTRY</Typography></a>
+        <a href={'#registry'}><Typography>{homeLocalization.registryTitle.toUpperCase()}</Typography></a>
       </div>
       <NavBar/>
       <div className={'parallax-home'} id={'home'}>
@@ -45,6 +46,7 @@ const Home = () => {
           {homeLocalization.contact}
         </Typography>
       </section>
+      <Footer/>
     </>
   );
 };
