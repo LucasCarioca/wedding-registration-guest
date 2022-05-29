@@ -3,10 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {homeLocalization} from './components/localization';
+
+
+const language = process.env.REACT_APP_LANG || 'default';
+
+if (language != 'default') {
+  homeLocalization.setLanguage(language);
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
