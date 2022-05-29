@@ -1,3 +1,10 @@
+# [0.2.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.1.3...v0.2.0) (2022-05-29)
+
+
+### Features
+
+* adding localization from home page ([6d6c5f3](https://github.com/LucasCarioca/wedding-registration-guest/commit/6d6c5f3e41ada3bcc7c80a40a840b91f908d295f))
+
 ## [0.1.3](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.1.2...v0.1.3) (2022-05-15)
 
 
