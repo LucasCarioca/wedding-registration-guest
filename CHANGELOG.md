@@ -1,3 +1,10 @@
+# [0.3.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.2.0...v0.3.0) (2022-05-29)
+
+
+### Features
+
+* adding localization picker and more translations ([8bba68b](https://github.com/LucasCarioca/wedding-registration-guest/commit/8bba68b311d0b9152c19d75904234484ae5594ac))
+
 # [0.2.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.1.3...v0.2.0) (2022-05-29)
 
 
