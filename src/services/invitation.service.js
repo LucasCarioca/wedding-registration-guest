@@ -8,3 +8,9 @@ export async function getInvitation() {
   const res = await axios.get(`${host}/api/v1/invitations?registration_key=${apiKey}`);
   return res.data;
 }
+
+export async function searchInvitation(value) {
+  const host = getHost();
+  const res = await axios.get(`${host}/api/v1/invitations?value=${value}`);
+  return res.data;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import {setLanguages} from './localization';
+import {Typography} from '@mui/material';
 
 const Footer = () => {
   const setLanguage = (language) => {
@@ -9,12 +10,12 @@ const Footer = () => {
   };
   const year = new Date().getFullYear();
   return (<section className={'footer'}>
-    <p className={'footer--attribution'}>Copyright &copy; Lucas De Souza {year}</p>
-    <p className={'footer--languages'}>
+    <Typography className={'footer--attribution'}>Copyright &copy; Lucas De Souza {year}</Typography>
+    <Typography className={'footer--languages'}>
       <span onClick={() => setLanguage('en')}> 🇺🇸 </span>
       <span onClick={() => setLanguage('es')}> 🇨🇴 </span>
       <span onClick={() => setLanguage('br')}> 🇧🇷 </span>
-    </p>
+    </Typography>
   </section>);
 };
 

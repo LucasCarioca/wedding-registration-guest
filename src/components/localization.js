@@ -13,6 +13,7 @@ export const homeLocalization = new LocalizedStrings({
     galleryTitle: 'Gallery',
     contactTitle: 'Contact',
     registryTitle: 'Registry',
+    invitationTitle: 'Invitation'
   },
   es: {
     subtitle: 'Septiembre 13, 2023',
@@ -26,6 +27,7 @@ export const homeLocalization = new LocalizedStrings({
     galleryTitle: 'Galería',
     contactTitle: 'Contacto',
     registryTitle: 'lista de regalos',
+    invitationTitle: 'invitación'
   },
   br: {
     subtitle: 'Setembro 13, 2023',
@@ -39,6 +41,7 @@ export const homeLocalization = new LocalizedStrings({
     galleryTitle: 'Galeria',
     contactTitle: 'Contato',
     registryTitle: 'Lista de presentes',
+    invitationTitle: 'convite'
   }
 });
 

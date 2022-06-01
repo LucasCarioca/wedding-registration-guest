@@ -16,7 +16,7 @@ function InvitationNavBar({registraion}) {
       >
         <List sx={{height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
           <div onClick={() => setDrawerState(!drawerState)}>
-            <Link className="styled-nav-link" to={`/invitations/${registraion.registration_key}`}>
+            <Link className="styled-nav-link" to={`/`}>
               <ListItem>
                 <ListItemIcon>
                   <HomeIcon/>
@@ -27,6 +27,16 @@ function InvitationNavBar({registraion}) {
               </ListItem>
             </Link>
             <Divider/>
+            <Link className="styled-nav-link" to={`/invitations/${registraion.registration_key}`}>
+              <ListItem>
+                <ListItemIcon>
+                  <HomeIcon/>
+                </ListItemIcon>
+                <ListItemText>
+                  Invitation Home
+                </ListItemText>
+              </ListItem>
+            </Link>
             <Link className="styled-nav-link" to={`/invitations/${registraion.registration_key}/guests`}>
               <ListItem>
                 <ListItemIcon>

@@ -111,7 +111,7 @@ section {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
     border: 0;
     border-radius: 50px;
-    padding-left: 56px;
+    padding-left: 32px;
     font-weight: bold;
     font-size: 18px;
     line-height: 32px;
@@ -150,7 +150,7 @@ section {
     }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
     .mobile-nav {
         display: none;
     }
@@ -160,10 +160,13 @@ section {
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
     .nav-home {
         display: none;
     }
+}
+
+@media only screen and (max-width: 700px) {
 
     .title-home {
         font-size: 32px !important;
