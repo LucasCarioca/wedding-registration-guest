@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.3.0...v0.4.0) (2022-06-01)
+
+
+### Features
+
+* adding search by phone and email ([6d73fdd](https://github.com/LucasCarioca/wedding-registration-guest/commit/6d73fdd8cc294adc18c1557a67791f09614e6d3b))
+
 # [0.3.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.2.0...v0.3.0) (2022-05-29)
 
 
