@@ -1,3 +1,10 @@
+## [0.4.2](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.4.1...v0.4.2) (2022-06-03)
+
+
+### Bug Fixes
+
+* adding route to ingres ([f501b25](https://github.com/LucasCarioca/wedding-registration-guest/commit/f501b25fd1861b952c245365ce70e0f35b49169d))
+
 ## [0.4.1](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.4.0...v0.4.1) (2022-06-02)
 
 
