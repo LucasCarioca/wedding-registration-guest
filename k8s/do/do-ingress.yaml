@@ -27,8 +27,19 @@ spec:
                 port:
                   number: 80
             pathType: ImplementationSpecific
+    - host: www.karenandlucas.com
+      http:
+        paths:
+          - path: /
+            backend:
+              service:
+                name: wedding-guest
+                port:
+                  number: 80
+            pathType: ImplementationSpecific
   tls:
     - hosts:
         - wedding.ldkube.com
         - karenandlucas.com
+        - www.karenandlucas.com
       secretName: wedding-tls
