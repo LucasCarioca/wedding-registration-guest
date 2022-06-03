@@ -1,3 +1,10 @@
+## [0.4.1](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.4.0...v0.4.1) (2022-06-02)
+
+
+### Bug Fixes
+
+* padding on footer ([37999c6](https://github.com/LucasCarioca/wedding-registration-guest/commit/37999c64928a2919d7f405ba4673d89c9f25b0d9))
+
 # [0.4.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.3.0...v0.4.0) (2022-06-01)
 
 
