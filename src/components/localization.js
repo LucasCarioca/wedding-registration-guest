@@ -1,5 +1,35 @@
 import LocalizedStrings from 'react-localization';
 
+export const timelineLocalization = new LocalizedStrings({
+  en: {
+    items: [
+      {name: 'First thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'Second thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'Third thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'Fourth thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'Fifth thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+    ]
+  },
+  es: {
+    items: [
+      {name: 'First thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'Second thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'Third thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'Fourth thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'Fifth thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+    ]
+  },
+  br: {
+    items: [
+      {name: 'First thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'Second thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'Third thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'Fourth thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'Fifth thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+    ]
+  },
+});
+
 export const homeLocalization = new LocalizedStrings({
   en: {
     subtitle: 'September 13, 2023',

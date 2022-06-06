@@ -3,6 +3,7 @@ import {Typography} from '@mui/material';
 import NavBar from './NavBar';
 import {homeLocalization} from './localization';
 import Footer from './Footer';
+import OurStoryTimeline from './OurStoryTimeline';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <Typography className={'home--main-paragraph-section'}>
           {homeLocalization.ourStory}
         </Typography>
+        <OurStoryTimeline/>
       </section>
       <section id={'the-wedding'}>
         <Typography className={'home--title-section'} variant={'h2'}>{homeLocalization.theWeddingTitle.toUpperCase()}</Typography>
