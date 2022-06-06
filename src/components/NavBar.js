@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {Button, Drawer, List, ListItem, ListItemText, Typography} from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import {homeLocalization} from './localization';
+import LanguagePicker from './LanguagePicker';
 
 function NavBar() {
   const [drawerState, setDrawerState] = useState(false);
@@ -19,6 +20,7 @@ function NavBar() {
     <>
       <div className={'nav-home'}>
         {links.map(({url, label}, i) => <a href={url} key={i}><Typography>{label}</Typography></a>)}
+        <LanguagePicker/>
       </div>
       <div className={'mobile-nav'}>
         <Drawer
@@ -48,13 +50,14 @@ function NavBar() {
           position: 'fixed',
           top: '0',
           display: 'flex',
-          justifyContent: 'flex-start',
+          justifyContent: 'space-between',
           width: '100%',
           backgroundColor: 'white'
         }}>
           <Button style={{color: 'black'}} onClick={() => setDrawerState(!drawerState)} id="catalog">
             <MenuIcon/>
           </Button>
+          <LanguagePicker/>
         </div>
       </div>
     </>

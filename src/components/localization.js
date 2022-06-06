@@ -48,3 +48,7 @@ export const homeLocalization = new LocalizedStrings({
 export const allLocalizations = [homeLocalization];
 
 export const setLanguages = (language) => allLocalizations.forEach(localization => localization.setLanguage(language));
+
+export const getLanguage = () => {
+  return homeLocalization.getLanguage();
+};
