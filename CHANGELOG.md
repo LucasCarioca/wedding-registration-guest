@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.4.2...v0.5.0) (2022-06-06)
+
+
+### Features
+
+* improve language picker ([0e738a1](https://github.com/LucasCarioca/wedding-registration-guest/commit/0e738a132aa7318003b2620c41426444f8220a07))
+
 ## [0.4.2](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.4.1...v0.4.2) (2022-06-03)
 
 
