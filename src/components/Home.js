@@ -4,6 +4,7 @@ import NavBar from './NavBar';
 import {homeLocalization} from './localization';
 import Footer from './Footer';
 import OurStoryTimeline from './OurStoryTimeline';
+import Gallery from './Gallery';
 
 const Home = () => {
   return (
@@ -33,6 +34,7 @@ const Home = () => {
         <Typography className={'home--main-paragraph-section'}>
           {homeLocalization.gallery}
         </Typography>
+        <Gallery/>
       </section>
       <section id={'contact'}>
         <Typography className={'home--title-section'} variant={'h2'}>{homeLocalization.contactTitle.toUpperCase()}</Typography>
