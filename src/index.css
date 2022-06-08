@@ -67,6 +67,7 @@ section {
 }
 
 .nav-home {
+    z-index: 100;
     margin: 0 !important;
     position: fixed;
     top: 0;
@@ -78,6 +79,7 @@ section {
 }
 
 .nav-home a {
+    z-index: 100;
     color: inherit;
     text-decoration: inherit;
     margin: 1rem;

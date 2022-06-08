@@ -52,7 +52,8 @@ function NavBar() {
           display: 'flex',
           justifyContent: 'space-between',
           width: '100%',
-          backgroundColor: 'white'
+          backgroundColor: 'white',
+          zIndex: '100'
         }}>
           <Button style={{color: 'black'}} onClick={() => setDrawerState(!drawerState)} id="catalog">
             <MenuIcon/>
