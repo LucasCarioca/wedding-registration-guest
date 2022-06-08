@@ -1,3 +1,10 @@
+## [0.6.1](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.6.0...v0.6.1) (2022-06-08)
+
+
+### Bug Fixes
+
+* navbar hidden behind gallery ([24677a9](https://github.com/LucasCarioca/wedding-registration-guest/commit/24677a91053f9cdb9c3085e3641481f64dfdbb80))
+
 # [0.6.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.5.0...v0.6.0) (2022-06-06)
 
 
