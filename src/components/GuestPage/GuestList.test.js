@@ -2,7 +2,7 @@ import React from 'react';
 import {render, screen, waitFor} from '@testing-library/react';
 import GuestList from './GuestList';
 import {deleteGuest} from '../../services/guest.service';
-jest.mock('../services/guest.service', () => ({
+jest.mock('../../services/guest.service', () => ({
   deleteGuest: jest.fn()
 }));
 
