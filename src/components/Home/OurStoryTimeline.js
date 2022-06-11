@@ -8,6 +8,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 
 import {timelineLocalization} from '../common/localization';
+import {Typography} from '@mui/material';
 
 function OurStoryTimeline() {
   return (
@@ -16,13 +17,22 @@ function OurStoryTimeline() {
         {timelineLocalization.items.map((item, i) => (
           <TimelineItem key={i}>
             <TimelineOppositeContent color="text.secondary">
-              {item.date}
+              <Typography style={{fontSize: '1.25rem', fontWeight: 'bold'}}>
+                {item.date}
+              </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
-              <TimelineDot />
-              {i<(timelineLocalization.items.length-1) && (<TimelineConnector />)}
+              <TimelineDot/>
+              {i < (timelineLocalization.items.length - 1) && (<TimelineConnector/>)}
             </TimelineSeparator>
-            <TimelineContent>{item.name}</TimelineContent>
+            <TimelineContent>
+              <Typography style={{fontSize: '1.25rem', fontWeight: 'bold'}}>
+                {item.name}
+              </Typography>
+              <Typography>
+                {item.text}
+              </Typography>
+            </TimelineContent>
           </TimelineItem>
         ))}
 
