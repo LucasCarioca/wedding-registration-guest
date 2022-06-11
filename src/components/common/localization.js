@@ -12,11 +12,11 @@ export const timelineLocalization = new LocalizedStrings({
   },
   es: {
     items: [
-      {name: 'Nos ', text: 'this is some placeholder', date: '1/1/1900', image: ''},
-      {name: 'Second thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
-      {name: 'Third thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
-      {name: 'Fourth thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
-      {name: 'Fifth thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'Se conocieron', text: 'Nos conocimos en una fiesta de Halloween de un amigo en comun', date: 'octubre del 2010', image: ''},
+      {name: 'Se hicieron novios', text: 'Un amor de colegio', date: 'noviembre del 2010', image: ''},
+      {name: 'Se mudaron juntos', text: 'Arrendamos nuestro primer apartamento y nos mudamos juntos con nuestros perritos Toto y Chloe', date: 'mayo del 2015', image: ''},
+      {name: 'Hogar dulce hogar', text: 'Compramos nuestra primera casa y por fin le dimos a nuestros perritos el jardín que se merecen', date: 'abril del 2019', image: ''},
+      {name: 'Ella dijo que si', text: 'Nos comprometimos en un velero mientras contemplábamos el atardacere mas hermoso en Croacia', date: 'agosto del 2021', image: ''},
     ]
   },
   br: {
