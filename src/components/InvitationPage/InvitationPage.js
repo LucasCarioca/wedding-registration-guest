@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import {getRegistrationKey, setRegistrationKey} from '../config';
+import {getRegistrationKey, setRegistrationKey} from '../../config';
 import {useHistory, useParams} from 'react-router';
-import {getInvitation} from '../services/invitation.service';
+import {getInvitation} from '../../services/invitation.service';
 import LinearProgress from '@mui/material/LinearProgress';
 import InvitationHome from './InvitationHome';
 import InvitationNavBar from './InvitationNavBar';

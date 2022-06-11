@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import {Form, Formik} from 'formik';
 import {useHistory} from 'react-router';
-import {getRegistrationKey, setRegistrationKey} from '../config';
+import {getRegistrationKey, setRegistrationKey} from '../../config';
 import {Alert, Container} from '@mui/material';
-import NavBar from './NavBar';
-import {searchInvitation} from '../services/invitation.service';
+import NavBar from '../Home/NavBar';
+import {searchInvitation} from '../../services/invitation.service';
 
 function Search() {
   const history = useHistory();

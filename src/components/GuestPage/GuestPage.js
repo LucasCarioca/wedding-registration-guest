@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react';
 import GuestList from './GuestList';
-import {getAllGuests} from '../services/guest.service';
+import {getAllGuests} from '../../services/guest.service';
 import NewGuestForm from './NewGuestForm';
 import {Container, LinearProgress, Typography} from '@mui/material';
-import {getInvitation} from '../services/invitation.service';
-import InvitationNavBar from './InvitationNavBar';
-import SystemOutageError from './SystemOutageError';
+import {getInvitation} from '../../services/invitation.service';
+import InvitationNavBar from '../InvitationPage/InvitationNavBar';
+import SystemOutageError from '../common/SystemOutageError';
 
 function GuestPage() {
   const [guestList, setGuestList] = useState([]);

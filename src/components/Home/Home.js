@@ -1,8 +1,8 @@
 import React from 'react';
 import {Typography} from '@mui/material';
 import NavBar from './NavBar';
-import {homeLocalization} from './localization';
-import Footer from './Footer';
+import {homeLocalization} from '../common/localization';
+import Footer from '../common/Footer';
 import OurStoryTimeline from './OurStoryTimeline';
 import Gallery from './Gallery';
 

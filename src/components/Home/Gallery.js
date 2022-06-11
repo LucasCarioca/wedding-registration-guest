@@ -1,13 +1,13 @@
 import React, {useState} from 'react';
 import './gallery.css';
-import img1 from '../g-img-1-min.JPG';
-import img2 from '../g-img-2-min.JPG';
-import img3 from '../g-img-3-min.JPG';
-import img4 from '../g-img-4-min.JPG';
-import img5 from '../g-img-5-min.JPG';
-import img6 from '../g-img-6-min.JPG';
-import img7 from '../g-img-7-min.JPG';
-import img8 from '../g-img-8-min.JPG';
+import img1 from '../../assets/g-img-1-min.JPG';
+import img2 from '../../assets/g-img-2-min.JPG';
+import img3 from '../../assets/g-img-3-min.JPG';
+import img4 from '../../assets/g-img-4-min.JPG';
+import img5 from '../../assets/g-img-5-min.JPG';
+import img6 from '../../assets/g-img-6-min.JPG';
+import img7 from '../../assets/g-img-7-min.JPG';
+import img8 from '../../assets/g-img-8-min.JPG';
 
 function Gallery() {
   const [shown, setShown] = useState(false);

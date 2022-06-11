@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import {Button, Drawer, List, ListItem, ListItemText, Typography} from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import {homeLocalization} from './localization';
-import LanguagePicker from './LanguagePicker';
+import {homeLocalization} from '../common/localization';
+import LanguagePicker from '../common/LanguagePicker';
 
 function NavBar() {
   const [drawerState, setDrawerState] = useState(false);

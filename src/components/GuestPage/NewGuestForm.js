@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import {TextField, Button, Grid, Alert} from '@mui/material';
 import {Form, Formik} from 'formik';
-import {createGuest} from '../services/guest.service';
-import {getAxiosErrorMessage} from '../utils/errors';
+import {createGuest} from '../../services/guest.service';
+import {getAxiosErrorMessage} from '../../utils/errors';
 
 function NewGuestForm({onSubmit}) {
   const [error, setError] = useState();

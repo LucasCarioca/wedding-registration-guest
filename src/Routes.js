@@ -1,9 +1,9 @@
 import {Route, Switch} from 'react-router-dom';
 import React from 'react';
-import Search from './components/Search';
-import InvitationPage from './components/InvitationPage';
-import GuestPage from './components/GuestPage';
-import Home from './components/Home';
+import Search from './components/Search/Search';
+import InvitationPage from './components/InvitationPage/InvitationPage';
+import GuestPage from './components/GuestPage/GuestPage';
+import Home from './components/Home/Home';
 
 
 function Routes() {

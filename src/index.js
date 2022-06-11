@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {setLanguages} from './components/localization';
+import {setLanguages} from './components/common/localization';
 
 const language = localStorage.getItem('language');
 if (language) setLanguages(language);

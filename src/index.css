@@ -41,7 +41,7 @@ section {
 }
 
 .parallax-home {
-    background-image: url("./desktop.jpg");
+    background-image: url("./mobile.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
