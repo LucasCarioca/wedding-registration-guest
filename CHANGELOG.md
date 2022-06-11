@@ -1,3 +1,10 @@
+# [0.8.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.7.0...v0.8.0) (2022-06-11)
+
+
+### Features
+
+* added timeline content in spanish ([ee7e06a](https://github.com/LucasCarioca/wedding-registration-guest/commit/ee7e06a362a9fe4fff15a5a54c470d7ce8c4ce34))
+
 # [0.7.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.6.1...v0.7.0) (2022-06-11)
 
 
