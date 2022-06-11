@@ -3,16 +3,16 @@ import LocalizedStrings from 'react-localization';
 export const timelineLocalization = new LocalizedStrings({
   en: {
     items: [
-      {name: 'First thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
-      {name: 'Second thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
-      {name: 'Third thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
-      {name: 'Fourth thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
-      {name: 'Fifth thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'First met', text: 'We first met at a mutual friend\'s Halloween party', date: 'October 2010', image: ''},
+      {name: 'Started dating', text: 'We quickly fell in love and became high school sweethearts', date: 'November 2010', image: ''},
+      {name: 'Moving out', text: 'We got our first apartment and moved out together with our two dogs, Toto & Chloe', date: 'May 2015', image: ''},
+      {name: 'Home sweet home', text: 'We bought our first home and gave our dogs the backyard they deserved', date: 'April 2019', image: ''},
+      {name: 'She said yes', text: 'We got engaged while watching the most beautiful sunset on a sailboat in Croatia', date: 'August 2021', image: ''},
     ]
   },
   es: {
     items: [
-      {name: 'First thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'Nos ', text: 'this is some placeholder', date: '1/1/1900', image: ''},
       {name: 'Second thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
       {name: 'Third thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
       {name: 'Fourth thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},

@@ -18,9 +18,9 @@ const Home = () => {
       </div>
       <section id={'our-story'}>
         <Typography className={'home--title-section'} variant={'h2'}>{homeLocalization.ourStoryTitle.toUpperCase()}</Typography>
-        <Typography className={'home--main-paragraph-section'}>
+        {/* <Typography className={'home--main-paragraph-section'}>
           {homeLocalization.ourStory}
-        </Typography>
+        </Typography> */}
         <OurStoryTimeline/>
       </section>
       <section id={'the-wedding'}>

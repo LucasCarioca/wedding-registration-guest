@@ -13,7 +13,7 @@ import {Typography} from '@mui/material';
 function OurStoryTimeline() {
   return (
     <>
-      <Timeline position="alternate">
+      <Timeline>
         {timelineLocalization.items.map((item, i) => (
           <TimelineItem key={i}>
             <TimelineOppositeContent color="text.secondary">
@@ -29,7 +29,7 @@ function OurStoryTimeline() {
               <Typography style={{fontSize: '1.25rem', fontWeight: 'bold'}}>
                 {item.name}
               </Typography>
-              <Typography>
+              <Typography style={{maxWidth: '200px'}}>
                 {item.text}
               </Typography>
             </TimelineContent>
