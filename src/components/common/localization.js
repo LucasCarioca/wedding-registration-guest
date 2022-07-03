@@ -12,11 +12,19 @@ export const timelineLocalization = new LocalizedStrings({
   },
   es: {
     items: [
+<<<<<<< HEAD
       {name: 'First met', text: 'We first met at a mutual friend\'s Halloween party', date: 'October 2010', image: ''},
       {name: 'Started dating', text: 'We quickly fell in love and became high school sweethearts', date: 'November 2010', image: ''},
       {name: 'Moving out', text: 'We got our first apartment and moved out together with our two dogs, Toto & Chloe', date: 'May 2015', image: ''},
       {name: 'Home sweet home', text: 'We bought our first home and gave our dogs the backyard they deserved', date: 'April 2019', image: ''},
       {name: 'She said yes', text: 'We got engaged while watching the most beautiful sunset on a sailboat in Croatia', date: 'August 2021', image: ''},
+=======
+      {name: 'Se conocieron', text: 'Nos conocimos en una fiesta de Halloween de un amigo en comun', date: 'octubre del 2010', image: ''},
+      {name: 'Se hicieron novios', text: 'Un amor de colegio', date: 'noviembre del 2010', image: ''},
+      {name: 'Se mudaron juntos', text: 'Arrendamos nuestro primer apartamento y nos mudamos juntos con nuestros perritos Toto y Chloe', date: 'mayo del 2015', image: ''},
+      {name: 'Hogar dulce hogar', text: 'Compramos nuestra primera casa y por fin le dimos a nuestros perritos el jardín que se merecen', date: 'abril del 2019', image: ''},
+      {name: 'Ella dijo que si', text: 'Nos comprometimos en un velero mientras contemplábamos el atardacere mas hermoso en Croacia', date: 'agosto del 2021', image: ''},
+>>>>>>> 4a21fa4f9f490a1e1aaa2b4f26e32d227a199e23
     ]
   },
   br: {
