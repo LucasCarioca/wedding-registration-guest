@@ -29,7 +29,7 @@ function OurStoryTimeline() {
               <Typography style={{fontSize: '1.25rem', fontWeight: 'bold'}}>
                 {item.name}
               </Typography>
-              <Typography style={{maxWidth: '200px'}}>
+              <Typography style={{maxWidth: '200px', margin: '2rem 0'}}>
                 {item.text}
               </Typography>
             </TimelineContent>

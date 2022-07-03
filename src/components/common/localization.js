@@ -12,29 +12,31 @@ export const timelineLocalization = new LocalizedStrings({
   },
   es: {
     items: [
-      {name: 'Nos ', text: 'this is some placeholder', date: '1/1/1900', image: ''},
-      {name: 'Second thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
-      {name: 'Third thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
-      {name: 'Fourth thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
-      {name: 'Fifth thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'First met', text: 'We first met at a mutual friend\'s Halloween party', date: 'October 2010', image: ''},
+      {name: 'Started dating', text: 'We quickly fell in love and became high school sweethearts', date: 'November 2010', image: ''},
+      {name: 'Moving out', text: 'We got our first apartment and moved out together with our two dogs, Toto & Chloe', date: 'May 2015', image: ''},
+      {name: 'Home sweet home', text: 'We bought our first home and gave our dogs the backyard they deserved', date: 'April 2019', image: ''},
+      {name: 'She said yes', text: 'We got engaged while watching the most beautiful sunset on a sailboat in Croatia', date: 'August 2021', image: ''},
     ]
   },
   br: {
     items: [
-      {name: 'First thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
-      {name: 'Second thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
-      {name: 'Third thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
-      {name: 'Fourth thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
-      {name: 'Fifth thing happened', text: 'this is some placeholder', date: '1/1/1900', image: ''},
+      {name: 'First met', text: 'We first met at a mutual friend\'s Halloween party', date: 'October 2010', image: ''},
+      {name: 'Started dating', text: 'We quickly fell in love and became high school sweethearts', date: 'November 2010', image: ''},
+      {name: 'Moving out', text: 'We got our first apartment and moved out together with our two dogs, Toto & Chloe', date: 'May 2015', image: ''},
+      {name: 'Home sweet home', text: 'We bought our first home and gave our dogs the backyard they deserved', date: 'April 2019', image: ''},
+      {name: 'She said yes', text: 'We got engaged while watching the most beautiful sunset on a sailboat in Croatia', date: 'August 2021', image: ''},
     ]
   },
 });
 
 export const homeLocalization = new LocalizedStrings({
   en: {
+    travelTitle: 'Travel',
+    scheduleTitle: 'Schedule',
     subtitle: 'September 13, 2023',
     ourStory: 'This is a summary of our story',
-    theWedding: 'These are details on our wedding',
+    theWedding: 'Join us in celebrating a night of our love and life together. On Lake Como\'s coast, Hotel Villa Cipressi sets the mood for the perfect romantic getaway where we will tie the knot.',
     gallery: 'Here is a gallery of images',
     contact: 'Our contact information',
     homeTitle: 'Home',
@@ -46,9 +48,11 @@ export const homeLocalization = new LocalizedStrings({
     invitationTitle: 'Invitation'
   },
   es: {
+    travelTitle: 'Viaje',
+    scheduleTitle: 'Cronograma',
     subtitle: 'Septiembre 13, 2023',
     ourStory: 'Este es un resumen de nuestra historia',
-    theWedding: 'Estos son los detalles de nuestra boda',
+    theWedding: 'Celebra con nosotros nuestra unión. En la costa del lago Como, el Hotel Villa Cipressi dispondrá el ambiente para el perfecto escape romántico en el que daremos el sí. ',
     gallery: 'Aqui una galeria de imagenes',
     contact: 'Nuestra información de contacto',
     homeTitle: 'Inicio',
@@ -60,9 +64,11 @@ export const homeLocalization = new LocalizedStrings({
     invitationTitle: 'invitación'
   },
   br: {
+    travelTitle: 'Viagem',
+    scheduleTitle: 'Cronograma',
     subtitle: 'Setembro 13, 2023',
     ourStory: 'Este é um resumo da nossa história',
-    theWedding: 'Esses são detalhes do nosso casamento',
+    theWedding: 'Junte-se a nós para celebrar uma noite de nosso amor e vida juntos. Na costa do Lago de Como, o Hotel Villa Cipressi cria o clima para uma escapadela romântica perfeita onde nos casaremos.',
     gallery: 'Aqui está uma galeria de imagens',
     contact: 'Nossas informações de contato',
     homeTitle: 'Inicio',

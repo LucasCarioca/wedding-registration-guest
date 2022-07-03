@@ -9,11 +9,12 @@ function NavBar() {
 
   const links = [
     {url: '/#home', label: homeLocalization.homeTitle.toUpperCase()},
-    {url: '/#our-story', label: homeLocalization.ourStoryTitle.toUpperCase()},
     {url: '/#the-wedding', label: homeLocalization.theWeddingTitle.toUpperCase()},
-    {url: '/#gallery', label: homeLocalization.galleryTitle.toUpperCase()},
-    {url: '/#contact', label: homeLocalization.contactTitle.toUpperCase()},
-    {url: '/#registry', label: homeLocalization.registryTitle.toUpperCase()},
+    {url: '/#travel', label: homeLocalization.travelTitle.toUpperCase()},
+    {url: '/#our-story', label: homeLocalization.ourStoryTitle.toUpperCase()},
+    // {url: '/#gallery', label: homeLocalization.galleryTitle.toUpperCase()},
+    // {url: '/#contact', label: homeLocalization.contactTitle.toUpperCase()},
+    // {url: '/#registry', label: homeLocalization.registryTitle.toUpperCase()},
     {url: '/search', label: homeLocalization.invitationTitle.toUpperCase()},
   ];
   return (
