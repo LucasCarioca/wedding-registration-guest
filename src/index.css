@@ -1,18 +1,23 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: optima !important;
 }
 
 html, body {
-    background: whitesmoke;
+    background: white;
 }
 
 section {
     background: white;
 }
 
-.footer {
+.alternate-color {
     background: #ecf0f1;
+}
+
+.footer {
+    background: #e3e0e0;
     padding: 2rem;
 }
 
@@ -98,6 +103,10 @@ section {
     font-weight: bolder !important;
 }
 
+.home--travel-subsection{
+    padding-bottom: 3rem;
+}
+
 .home--title-sub-section {
     padding: 1rem 2rem 1rem 2rem;
     text-shadow: .5rem .5rem 1rem whitesmoke;
@@ -113,12 +122,29 @@ section {
 }
 
 .home--main-paragraph-section {
-    padding: 5rem 2rem 2rem 2rem;
+    font-size: 1.1rem !important;
+    padding: 2rem 2rem 2rem 2rem;
     text-shadow: .5rem .5rem 1rem whitesmoke;
     text-align: center;
-    font-weight: bold !important;
 }
 
+.center-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.home--hotel-image {
+    height: 20rem;
+}
+.center-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3rem;
+}
+.home--the-wedding-image {
+    height: 40rem;
+}
 
 .registration-key-search {
     width: 610px;

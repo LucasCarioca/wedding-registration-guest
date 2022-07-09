@@ -32,11 +32,11 @@ export const timelineLocalization = new LocalizedStrings({
 
 export const homeLocalization = new LocalizedStrings({
   en: {
-    travelTitle: 'Travel',
+    travelTitle: 'Travel Details',
     scheduleTitle: 'Schedule',
     subtitle: 'September 13, 2023',
     ourStory: 'This is a summary of our story',
-    theWedding: 'Join us in celebrating a night of our love and life together. On Lake Como\'s coast, Hotel Villa Cipressi sets the mood for the perfect romantic getaway where we will tie the knot.',
+    theWedding: 'Join us in celebrating a night of our love and life together. On Lake Como\'s coast, Hotel Villa Cipressi sets the mood for the perfect romantic getaway where we will tie the knot. More details to follow.',
     gallery: 'Here is a gallery of images',
     contact: 'Our contact information',
     homeTitle: 'Home',
@@ -45,14 +45,14 @@ export const homeLocalization = new LocalizedStrings({
     galleryTitle: 'Gallery',
     contactTitle: 'Contact',
     registryTitle: 'Registry',
-    invitationTitle: 'Invitation'
+    invitationTitle: 'Invitation',
   },
   es: {
-    travelTitle: 'Viaje',
+    travelTitle: 'Detalles de Viaje',
     scheduleTitle: 'Cronograma',
     subtitle: 'Septiembre 13, 2023',
     ourStory: 'Este es un resumen de nuestra historia',
-    theWedding: 'Celebra con nosotros nuestra unión. En la costa del lago Como, el Hotel Villa Cipressi dispondrá el ambiente para el perfecto escape romántico en el que daremos el sí. ',
+    theWedding: 'Acompáñanos a celebrar nuestra unión. En la costa del lago Como, el Hotel Villa Cipressi dispondrá el ambiente para el perfecto escape romántico en que daremos el sí. Más detalles a seguir.',
     gallery: 'Aqui una galeria de imagenes',
     contact: 'Nuestra información de contacto',
     homeTitle: 'Inicio',
@@ -68,7 +68,7 @@ export const homeLocalization = new LocalizedStrings({
     scheduleTitle: 'Cronograma',
     subtitle: 'Setembro 13, 2023',
     ourStory: 'Este é um resumo da nossa história',
-    theWedding: 'Junte-se a nós para celebrar uma noite de nosso amor e vida juntos. Na costa do Lago de Como, o Hotel Villa Cipressi cria o clima para uma escapadela romântica perfeita onde nos casaremos.',
+    theWedding: 'Junte-se a nós para celebrar uma noite de nosso amor e vida juntos. Na costa do Lago de Como, o Hotel Villa Cipressi cria o clima para uma escapadela romântica perfeita onde nos casaremos. Mas detalles a seguir.',
     gallery: 'Aqui está uma galeria de imagens',
     contact: 'Nossas informações de contato',
     homeTitle: 'Inicio',
