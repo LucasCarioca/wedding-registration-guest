@@ -99,6 +99,7 @@ export const homeLocalization = new LocalizedStrings({
     travelAgentTitle: 'Agente de viagens',
     transportationTitle: 'Lake Como Private Transfers',
     accommodations: 'If you wish to stay at Hotel Villa Cipressi, we have a discounted rate for our guests, you may contact the hotel directly letting them know you’ll be attending Karen Ardila and Lucas de Souza’s wedding from September 12-14th 2023.',
+    howToArrive: 'Once in the Milan airport, guests will take the Milano Centrale to Varenna- esino train station arriving directly in Varenna.',
     travelAgent: 'If you wish to visit other places in Europe, our travel agent Luciane Garcia will be happy to help you with the plane tickets, planning your itinerary, and finding accommodations. Please note bookings can only be made as early as October 2022.',
     transportation: 'Safe Airport Transfers to and from Lake Como - Milan Area.',
   }
