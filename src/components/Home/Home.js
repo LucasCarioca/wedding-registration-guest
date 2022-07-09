@@ -30,13 +30,10 @@ const Home = () => {
       <section id={'travel'} className={'alternate-color'}>
         <Typography className={'home--title-section'} variant={'h2'}>{homeLocalization.travelTitle.toUpperCase()}</Typography>
         <div className="home--travel-subsection">
-          <Typography className={'home--title-sub-section'} variant={'h4'}>Accommodations</Typography>
+          <Typography className={'home--title-sub-section'} variant={'h4'}>{homeLocalization.accommodationsTitle}</Typography>
           <SectionDivider/>
           <Typography className={'home--main-paragraph-section'}>
-            If you wish to stay at Hotel Villa Cipressi, we have a discounted rate for our guests, you may contact the hotel
-            directly letting them know you’ll be attending Karen Ardila and Lucas de Souza’s wedding from September
-            12-14th 2023.
-            {/* Si quieres hospedarte en el Hotel Villa Cipressi puedes contactar al Hotel directamente e informarles que vas asistir a la boda de Karen Ardila y Lucas de Souza del 12-14 de septiembre del 2023 */}
+            {homeLocalization.accommodations}
           </Typography>
           <div className="center-content">
             <img src={hotelRoomImg} className="home--hotel-image"/>
@@ -46,37 +43,41 @@ const Home = () => {
           </div>
         </div>
         <div className="home--travel-subsection">
-          <Typography className={'home--title-sub-section'} variant={'h4'}>How to Arrive</Typography>
+          <Typography className={'home--title-sub-section'} variant={'h4'}>{homeLocalization.howToArriveTitle}</Typography>
           <SectionDivider/>
           <Typography className={'home--main-paragraph-section'}>
-            Once in the Milan airport, guests will take the Milano Centrale to Varenna- esino train station arriving directly in Varenna.
-            {/* Cuando llegues al aeropuerto de Milan, puedes tomar el tren desde la estación Milano Centrale a la estación de Varenna-esino que queda directamente en Varenna.  */}
+            {homeLocalization.howToArrive}
           </Typography>
           <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'row'}}>
             <Button variant={'outlined'} className={'home--title-button'} target={'_blank'} href={'https://www.trenitalia.com/en.html'}>View</Button>
           </div>
-        </div>
-        <div className="home--travel-subsection">
-          <Typography className={'home--title-sub-section'} variant={'h4'}>Travel Agent</Typography>
-          <SectionDivider/>
           <Typography className={'home--main-paragraph-section'}>
-            If you wish to visit other places in Europe, our travel agent Luciane Garcia will be happy to help you with the plane tickets, planning your itinerary, and finding accommodations. Please note bookings can only be made as early as October 2022.
-            {/* Quienes deseen visitar otros lugares en Europa, a partir de octubre del 2022, nuestra agente de viajes Luciane Garcia los puede asesorar comprando los pasajes, planeando el itinerario, y hospedaje. */}
-          </Typography>
-          <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'row'}}>
-            <Button variant={'outlined'} className={'home--title-button'} target={'_blank'} href={'https://wa.me/555199872280'}>Contact</Button>
-          </div>
-        </div>
-        <div className="home--travel-subsection">
-          <Typography className={'home--title-sub-section'} variant={'h4'}>Lake Como Private Transfers</Typography>
-          <SectionDivider/>
-          <Typography className={'home--main-paragraph-section'}>
-            Safe Airport Transfers to and from Lake Como - Milan Area.
+            {homeLocalization.transportation}
           </Typography>
           <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'row'}}>
             <Button variant={'outlined'} className={'home--title-button'} target={'_blank'} href={'https://www.transfeero.com/en/'}>View</Button>
           </div>
         </div>
+        <div className="home--travel-subsection">
+          <Typography className={'home--title-sub-section'} variant={'h4'}>{homeLocalization.travelAgentTitle}</Typography>
+          <SectionDivider/>
+          <Typography className={'home--main-paragraph-section'}>
+            {homeLocalization.travelAgent}
+          </Typography>
+          <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'row'}}>
+            <Button variant={'outlined'} className={'home--title-button'} target={'_blank'} href={'https://wa.me/555199872280'}>Contact</Button>
+          </div>
+        </div>
+        {/* <div className="home--travel-subsection"> */}
+        {/* <Typography className={'home--title-sub-section'} variant={'h4'}>{homeLocalization.transportationTitle}</Typography> */}
+        {/* <SectionDivider/> */}
+        {/*  <Typography className={'home--main-paragraph-section'}>*/}
+        {/*    {homeLocalization.transportation}*/}
+        {/*  </Typography>*/}
+        {/*  <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'row'}}>*/}
+        {/*    <Button variant={'outlined'} className={'home--title-button'} target={'_blank'} href={'https://www.transfeero.com/en/'}>View</Button>*/}
+        {/*  </div>*/}
+        {/* </div>*/}
       </section>
       <section id={'our-story'}>
         <Typography className={'home--title-section'} variant={'h2'}>{homeLocalization.ourStoryTitle}</Typography>

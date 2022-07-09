@@ -12,11 +12,11 @@ export const timelineLocalization = new LocalizedStrings({
   },
   es: {
     items: [
-      {name: 'Se conocieron', text: 'Nos conocimos en una fiesta de Halloween de un amigo en comun', date: 'octubre del 2010', image: ''},
-      {name: 'Se hicieron novios', text: 'Un amor de colegio', date: 'noviembre del 2010', image: ''},
-      {name: 'Se mudaron juntos', text: 'Arrendamos nuestro primer apartamento y nos mudamos juntos con nuestros perritos Toto y Chloe', date: 'mayo del 2015', image: ''},
-      {name: 'Hogar dulce hogar', text: 'Compramos nuestra primera casa y por fin le dimos a nuestros perritos el jardín que se merecen', date: 'abril del 2019', image: ''},
-      {name: 'Ella dijo que si', text: 'Nos comprometimos en un velero mientras contemplábamos el atardacere mas hermoso en Croacia', date: 'agosto del 2021', image: ''},
+      {name: 'Nos conocimos', text: 'Nos conocimos en una fiesta de Halloween de un amigo en común', date: 'Octubre del 2010', image: ''},
+      {name: 'Empezamos a salir', text: 'Rápidamente nos enamoramos en nuestro último año de colegio', date: 'Noviembre del 2010', image: ''},
+      {name: 'Nos fuimos a vivir juntos', text: 'Rentamos astro primer apartamento y nos mudamos con nuestros hijos perrunos, Toto Y Chloe', date: 'Mayo del 2015', image: ''},
+      {name: 'Hogar dulce hogar', text: 'Compramos nuestra primera casa, y por fin le dimos a nuestros hijos perrunos el patio trasero que merecen', date: 'Abril del 2019', image: ''},
+      {name: 'Ella dijo que si', text: 'Nos comprometimos en Croacia mientras contemplábamos el atardecer más hermoso en un velero', date: 'Agosto del 2021', image: ''},
     ]
   },
   br: {
@@ -46,6 +46,14 @@ export const homeLocalization = new LocalizedStrings({
     contactTitle: 'Contact',
     registryTitle: 'Registry',
     invitationTitle: 'Invitation',
+    accommodationsTitle: 'Accommodations',
+    howToArriveTitle: 'How to Arrive',
+    travelAgentTitle: 'Travel Agent',
+    transportationTitle: 'Lake Como Private Transfers',
+    accommodations: 'If you wish to stay at Hotel Villa Cipressi, we have a discounted rate for our guests, you may contact the hotel directly letting them know you’ll be attending Karen Ardila and Lucas de Souza’s wedding from September 12-14th 2023.',
+    howToArrive: 'Once in the Milan airport, guests will take the Milano Centrale to Varenna- esino train station arriving directly in Varenna.',
+    travelAgent: 'If you wish to visit other places in Europe, our travel agent Luciane Garcia will be happy to help you with the plane tickets, planning your itinerary, and finding accommodations. Please note bookings can only be made as early as October 2022.',
+    transportation: 'Safe Airport Transfers to and from Lake Como - Milan Area.',
   },
   es: {
     travelTitle: 'Detalles de Viaje',
@@ -61,7 +69,15 @@ export const homeLocalization = new LocalizedStrings({
     galleryTitle: 'Galería',
     contactTitle: 'Contacto',
     registryTitle: 'lista de regalos',
-    invitationTitle: 'invitación'
+    invitationTitle: 'invitación',
+    accommodationsTitle: 'Alojamiento',
+    howToArriveTitle: 'Como Llegar',
+    travelAgentTitle: 'Agente de viajes',
+    transportationTitle: 'Lake Como Private Transfers',
+    accommodations: 'Si quieres hospedarte en el Hotel Villa Cipressi puedes contactar al Hotel directamente e informarles que vas asistir a la boda de Karen Ardila y Lucas de Souza del 12-14 de septiembre del 2023',
+    howToArrive: 'Cuando llegues al aeropuerto de Milan, puedes tomar el tren desde la estación Milano Centrale a la estación de Varenna-esino que queda directamente en Varenna.',
+    travelAgent: 'Quienes deseen visitar otros lugares en Europa, a partir de octubre del 2022, nuestra agente de viajes Luciane Garcia los puede asesorar comprando los pasajes, planeando el itinerario, y hospedaje.',
+    transportation: 'Safe Airport Transfers to and from Lake Como - Milan Area.',
   },
   br: {
     travelTitle: 'Viagem',
@@ -77,11 +93,18 @@ export const homeLocalization = new LocalizedStrings({
     galleryTitle: 'Galeria',
     contactTitle: 'Contato',
     registryTitle: 'Lista de presentes',
-    invitationTitle: 'convite'
+    invitationTitle: 'convite',
+    accommodationsTitle: 'Alojamento',
+    howToArriveTitle: 'Como Chegar',
+    travelAgentTitle: 'Agente de viagens',
+    transportationTitle: 'Lake Como Private Transfers',
+    accommodations: 'If you wish to stay at Hotel Villa Cipressi, we have a discounted rate for our guests, you may contact the hotel directly letting them know you’ll be attending Karen Ardila and Lucas de Souza’s wedding from September 12-14th 2023.',
+    travelAgent: 'If you wish to visit other places in Europe, our travel agent Luciane Garcia will be happy to help you with the plane tickets, planning your itinerary, and finding accommodations. Please note bookings can only be made as early as October 2022.',
+    transportation: 'Safe Airport Transfers to and from Lake Como - Milan Area.',
   }
 });
 
-export const allLocalizations = [homeLocalization];
+export const allLocalizations = [homeLocalization, timelineLocalization];
 
 export const setLanguages = (language) => allLocalizations.forEach(localization => localization.setLanguage(language));
 
