@@ -28,7 +28,7 @@ const Home = () => {
         </div>
       </section>
       <section id={'travel'} className={'alternate-color'}>
-        <Typography className={'home--title-section'} variant={'h2'}>{homeLocalization.travelTitle.toUpperCase()}</Typography>
+        <Typography className={'home--title-section'} variant={'h2'}>{homeLocalization.travelTitle}</Typography>
         <div className="home--travel-subsection">
           <Typography className={'home--title-sub-section'} variant={'h4'}>{homeLocalization.accommodationsTitle}</Typography>
           <SectionDivider/>
