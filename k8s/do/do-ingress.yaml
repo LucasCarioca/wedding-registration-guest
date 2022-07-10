@@ -62,4 +62,6 @@ spec:
         - wedding.ldkube.com
         - karenandlucas.com
         - www.karenandlucas.com
+        - lucasandkaren.com
+        - www.lucasandkaren.com
       secretName: wedding-tls
