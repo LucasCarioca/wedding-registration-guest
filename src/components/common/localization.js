@@ -74,7 +74,7 @@ export const homeLocalization = new LocalizedStrings({
     howToArriveTitle: 'Como Llegar',
     travelAgentTitle: 'Agente de viajes',
     transportationTitle: 'Lake Como Private Transfers',
-    accommodations: 'Si quieres hospedarte en el Hotel Villa Cipressi, tenemos una tarifa de descuento para nuestros invitados. Puedes contactar al hotel directamente e informarles que vas asistir a la boda de Karen Ardila y Lucas de Souza del 12-14 de septiembre del 2023',
+    accommodations: 'Si quieres hospedarte en el Hotel Villa Cipressi, tenemos una tarifa de descuento para nuestros invitados. Puedes contactar al hotel directamente e informarles que vas a asistir a la boda de Karen Ardila y Lucas de Souza del 12-14 de septiembre del 2023',
     howToArrive: 'Cuando llegues al aeropuerto de Milan, puedes tomar el tren desde la estación Milano Centrale a la estación de Varenna-esino que queda directamente en Varenna',
     travelAgent: 'Quienes deseen visitar otros lugares en Europa, a partir de octubre del 2022, nuestra agente de viajes Luciane Garcia los puede asesorar comprando los pasajes, planeando el itinerario, y hospedaje',
     transportation: 'Servicio de conductor privado del Lago de Como - Milan Area',
