@@ -1,16 +1,15 @@
 import React from 'react';
 import {Button, Typography} from '@mui/material';
-import NavBar from './NavBar';
 import {homeLocalization} from '../common/localization';
 import Footer from '../common/Footer';
 import OurStoryTimeline from './OurStoryTimeline';
 import hotelRoomImg from '../../assets/hotel-home.jpeg';
 import theWeddingImg from '../../assets/the-wedding.JPG';
 
-const Home = () => {
+const Home = ({children}) => {
   return (
     <>
-      <NavBar/>
+      {children}
       <div className={'parallax-home'} id={'home'}>
         <div className={'content-home'}>
           <Typography className={'title-home'} variant={'h1'}>KAREN & LUCAS</Typography>
