@@ -1,3 +1,10 @@
+## [0.11.3](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.11.2...v0.11.3) (2022-07-10)
+
+
+### Bug Fixes
+
+* tls ([afcd3bf](https://github.com/LucasCarioca/wedding-registration-guest/commit/afcd3bfc327e33040756fa388bc3415417f5d255))
+
 ## [0.11.2](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.11.1...v0.11.2) (2022-07-10)
 
 
