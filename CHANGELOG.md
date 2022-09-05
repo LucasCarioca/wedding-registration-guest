@@ -1,3 +1,11 @@
+## [0.12.1](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.12.0...v0.12.1) (2022-09-05)
+
+
+### Bug Fixes
+
+* guest page should be RSVP page ([fdfca81](https://github.com/LucasCarioca/wedding-registration-guest/commit/fdfca81a29ee5c3c8ca8f0a4671d7fa47ba0d7a3))
+* update verbiage and dates ([b5ab781](https://github.com/LucasCarioca/wedding-registration-guest/commit/b5ab781f0396330d5ddb2ebe6a9e34afb54322a3))
+
 # [0.12.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.11.3...v0.12.0) (2022-09-04)
 
 
