@@ -12,7 +12,7 @@ const InvitationHome = ({registration}) => (
         <Typography variant={'h3'}>{registration.name}</Typography>
         <br/>
         <Typography>
-          You have been invited to Karen and Lucas&apos;s wedding on September 5th 2023 at Lake Como Italy. This
+          You have been invited to Karen and Lucas&apos;s wedding on September 13th 2023 at Lake Como Italy. This
           site
           will be your guide to everything you need to know.
         </Typography>
@@ -20,7 +20,7 @@ const InvitationHome = ({registration}) => (
         <Typography>
           To begin please make sure to visit the <Link to={`/invitations/${registration.registration_key}/guests`}>Register
           Guests</Link> page to register the guests the plan to attend from this invitation.
-          This is not a final RSVP but will imply that you plan on attending.
+          Guests added here will be considered RSVP.
         </Typography>
         <br/>
         <Typography>

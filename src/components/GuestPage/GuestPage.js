@@ -41,7 +41,7 @@ function GuestPage() {
         <Typography variant={'h2'}>Guests</Typography>
         <br/>
         <Typography>Please register the names of guests that are planning on coming to the wedding. </Typography>
-        <Typography>This is not the RSVP but implies that the guests listed are planning on attending.</Typography>
+        <Typography>Guests added here will be considered RSVP. If you can no longer attend please remove guests from the list below and that will undo your RSVP.</Typography>
         <br/>
         <Typography><span className={'label--left'}>Invited Guests: </span>{registration.guest_count}</Typography>
         <br/>

@@ -31,7 +31,7 @@ function GuestList({list, onChange}) {
             color="secondary"
             onClick={deleteSelection}
           >
-            Delete
+            Remove
           </Button> :
           <Button
             data-testid="deleteButton-disabled"

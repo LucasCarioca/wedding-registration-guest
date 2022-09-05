@@ -38,7 +38,7 @@ const Home = ({children}) => {
             <img src={hotelRoomImg} className="home--hotel-image"/>
           </div>
           <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'row'}}>
-            <Button variant={'outlined'} className={'home--title-button'} target={'_blank'} href={'https://www.rcollectionhotels.it/hotel-villa-cipressi/index'}>View</Button>
+            <Button variant={'outlined'} className={'home--title-button'} target={'_blank'} href={'mailto:info@hotelvillacipressi.it'}>Email Hotel</Button>
           </div>
         </div>
         <div className="home--travel-subsection">
