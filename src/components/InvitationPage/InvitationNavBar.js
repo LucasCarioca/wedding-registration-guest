@@ -43,16 +43,6 @@ function InvitationNavBar({registraion}) {
                   <AppsIcon/>
                 </ListItemIcon>
                 <ListItemText>
-                  Register Guests
-                </ListItemText>
-              </ListItem>
-            </Link>
-            <Link className="styled-nav-link" to={`/invitations/${registraion.registration_key}/rsvp`}>
-              <ListItem>
-                <ListItemIcon>
-                  <AppsIcon/>
-                </ListItemIcon>
-                <ListItemText>
                   RSVP
                 </ListItemText>
               </ListItem>

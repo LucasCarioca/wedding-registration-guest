@@ -38,7 +38,7 @@ function GuestPage() {
     <>
       <InvitationNavBar registraion={registration}/>
       <Container>
-        <Typography variant={'h2'}>Guests</Typography>
+        <Typography variant={'h2'}>RSVP Guests</Typography>
         <br/>
         <Typography>Please register the names of guests that are planning on coming to the wedding. </Typography>
         <Typography>Guests added here will be considered RSVP. If you can no longer attend please remove guests from the list below and that will undo your RSVP.</Typography>
