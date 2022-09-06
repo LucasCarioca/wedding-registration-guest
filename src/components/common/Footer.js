@@ -5,7 +5,7 @@ import LanguagePicker from './LanguagePicker';
 const Footer = () => {
   const year = new Date().getFullYear();
   return (<section className={'footer'}>
-    <Typography className={'footer--attribution'}>Copyright &copy; Lucas De Souza {year} </Typography>
+    <Typography className={'footer--attribution'}>Copyright &copy; Lucas De Souza {year}-</Typography>
     <Typography className={'footer--languages'}>
       <LanguagePicker/>
     </Typography>
