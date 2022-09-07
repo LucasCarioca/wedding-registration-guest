@@ -22,7 +22,8 @@ function Search() {
                 searchString: ''
               }}
               onSubmit={(values) => {
-                searchInvitation(values.searchString)
+                const searchString = values.searchString.toLowerCase().trim();
+                searchInvitation(searchString)
                   .then(registration => {
                     setRegistrationKey(registration.registration_key);
                     history.push(`/invitations/${registration.registration_key}`);

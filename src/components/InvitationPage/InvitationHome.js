@@ -12,7 +12,7 @@ const InvitationHome = ({registration}) => (
         <Typography variant={'h3'}>{registration.name}</Typography>
         <br/>
         <Typography>
-          You have been invited to Karen and Lucas&apos;s wedding on September 13th 2023 at Lake Como Italy. This
+          You have been invited to Karen and Lucas&apos;s wedding on September 13th 2023, at Lake Como Italy. This
           site
           will be your guide to everything you need to know.
         </Typography>
