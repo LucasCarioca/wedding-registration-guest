@@ -1,3 +1,10 @@
+## [0.12.4](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.12.3...v0.12.4) (2022-09-09)
+
+
+### Bug Fixes
+
+* hotel name ([8a0a456](https://github.com/LucasCarioca/wedding-registration-guest/commit/8a0a456c3601ee70ca3dc2a77818894417a2e9e0))
+
 ## [0.12.3](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.12.2...v0.12.3) (2022-09-07)
 
 
