@@ -1,7 +1,7 @@
 
 
 const errorMessages = {
-  'GUEST_COUNT_LIMIT': 'All guests for this invitation have already been registered.',
+  'GUEST_COUNT_LIMIT': 'You have reached the maximum number of guests for this invitation.',
   'UNKNOWN': 'Something went wrong. Please try again later or contact us for .',
 };
 
