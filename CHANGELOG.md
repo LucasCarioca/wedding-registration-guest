@@ -1,3 +1,10 @@
+## [0.12.5](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.12.4...v0.12.5) (2022-09-10)
+
+
+### Bug Fixes
+
+* typo ([1275f67](https://github.com/LucasCarioca/wedding-registration-guest/commit/1275f67eb1b911613fdb6c8572323d21c7b4a193))
+
 ## [0.12.4](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.12.3...v0.12.4) (2022-09-09)
 
 
