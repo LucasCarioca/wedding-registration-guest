@@ -24,7 +24,7 @@ const InvitationHome = ({registration}) => (
         </Typography>
         <br/>
         <Typography>
-          We will update this page with more details on what is pending for each guests.
+          We will update this page with more details on what is pending for each guest.
         </Typography>
         <br/>
       </Container>
