@@ -18,9 +18,8 @@ const InvitationHome = ({registration}) => (
         </Typography>
         <br/>
         <Typography>
-          To begin please make sure to visit the <Link to={`/invitations/${registration.registration_key}/guests`}>Register
-          Guests</Link> page to register the guests the plan to attend from this invitation.
-          Guests added here will be considered RSVP.
+          To begin please make sure to visit the <Link to={`/invitations/${registration.registration_key}/guests`}>RSVP
+          Guests</Link> page to register yourself guests that plan to attend from this invitation, including anyone named in the invitation. Guests added here will be considered RSVP. To RSVP your name needs to be added to the guest list for the invitation.
         </Typography>
         <br/>
         <Typography>

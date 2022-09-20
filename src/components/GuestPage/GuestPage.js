@@ -4,8 +4,8 @@ import {getAllGuests} from '../../services/guest.service';
 import NewGuestForm from './NewGuestForm';
 import {Container, LinearProgress, Typography} from '@mui/material';
 import {getInvitation} from '../../services/invitation.service';
-import InvitationNavBar from '../InvitationPage/InvitationNavBar';
 import SystemOutageError from '../common/SystemOutageError';
+import NavBar from '../Home/NavBar';
 
 function GuestPage() {
   const [guestList, setGuestList] = useState([]);
@@ -36,14 +36,15 @@ function GuestPage() {
   }
   return (
     <>
-      <InvitationNavBar registraion={registration}/>
-      <Container>
-        <Typography variant={'h2'}>RSVP Guests</Typography>
+      <NavBar/>
+      <Container style={{paddingTop: '100px'}}>
+        <Typography variant={'h2'}>RSVP</Typography>
         <br/>
-        <Typography>Please register the names of guests that are planning on coming to the wedding. </Typography>
-        <Typography>Guests added here will be considered RSVP. If you can no longer attend please remove guests from the list below and that will undo your RSVP.</Typography>
+        <Typography>Please fill out your information below and that of any other guests in this invitation.</Typography>
+        <Typography>Guests will only be considered RSVP&lsquo;d if their name appears on this list. If you can no longer attend please remove your name from the list below and that will undo your RSVP.</Typography>
+        <Typography>If you have any questions please don&lsquo;t hesitate to reach out to Karen or Lucas.</Typography>
         <br/>
-        <Typography><span className={'label--left'}>Invited Guests: </span>{registration.guest_count}</Typography>
+        <Typography><span className={'label--left'}>Number of people invited: </span>{registration.guest_count}</Typography>
         <br/>
         <NewGuestForm onSubmit={refresh}/>
         <GuestList list={guestList} onChange={refresh}/>

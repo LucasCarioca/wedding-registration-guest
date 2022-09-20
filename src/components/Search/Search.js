@@ -10,7 +10,7 @@ function Search() {
   const history = useHistory();
   const [error, setError] = useState('');
   const registrationKey = getRegistrationKey();
-  if (registrationKey) history.push(`/invitations/${registrationKey}`);
+  if (registrationKey) history.push(`/invitations/${registrationKey}/guests`);
   return (
     <>
       <NavBar/>
@@ -26,7 +26,7 @@ function Search() {
                 searchInvitation(searchString)
                   .then(registration => {
                     setRegistrationKey(registration.registration_key);
-                    history.push(`/invitations/${registration.registration_key}`);
+                    history.push(`/invitations/${registration.registration_key}/guests`);
                   })
                   .catch(_ => setError(`Invitation no found using ${values.searchString}`));
               }}
