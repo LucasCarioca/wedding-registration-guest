@@ -1,3 +1,10 @@
+# [0.13.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.12.6...v0.13.0) (2022-09-20)
+
+
+### Features
+
+* remove invitation home page ([0b1fce1](https://github.com/LucasCarioca/wedding-registration-guest/commit/0b1fce1dfe7d55b0c14717fe852852709c99b955))
+
 ## [0.12.6](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.12.5...v0.12.6) (2022-09-10)
 
 
