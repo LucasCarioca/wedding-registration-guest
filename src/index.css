@@ -61,14 +61,17 @@ section {
 }
 
 .title-home {
-    text-shadow: .5rem .5rem 1rem #7f8c8d;
-    font-weight: bolder !important;
+    text-shadow: 1rem 1rem 2rem #2f3333;
+    /* font-weight: bolder !important; */
+    font-family: vanitas-bold !important;
 }
 
 .sub-title-home {
     font-size: 3rem !important;
-    text-shadow: .5rem .5rem 1rem #7f8c8d;
-    font-weight: bolder !important;
+    text-shadow: 1rem 1rem 2rem #2f3333;
+    font-style: normal;
+    font-weight: 400;
+    font-family: mrs-eaves, serif !important;
 }
 
 .nav-home {
@@ -113,6 +116,12 @@ section {
     vertical-align: middle;
     text-align: center;
     font-weight: bolder !important;
+}
+
+.mrs-eaves {
+    font-style: normal;
+    font-weight: 400;
+    font-family: mrs-eaves, serif !important;
 }
 
 .home--title-button {
@@ -167,6 +176,9 @@ section {
 .styled-nav-link {
     color: inherit;
     text-decoration: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-family: mrs-eaves, serif !important;
 }
 
 .registration-key-search:focus {
