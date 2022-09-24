@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Form, Formik} from 'formik';
 import {useHistory} from 'react-router';
 import {getRegistrationKey, setRegistrationKey} from '../../config';
-import {Alert, Container} from '@mui/material';
+import {Alert, Container, Typography, Button} from '@mui/material';
 import NavBar from '../Home/NavBar';
 import {searchInvitation} from '../../services/invitation.service';
 
@@ -14,9 +14,11 @@ function Search() {
   return (
     <>
       <NavBar/>
-      <div className={'parallax-home'} id={'home'}>
+      <div id={'home'}>
         <div className={'content-home'}>
           <Container>
+            <Typography className="search-title" variant="h1">RSVP</Typography>
+            <hr/>
             <Formik
               initialValues={{
                 searchString: ''
@@ -47,6 +49,8 @@ function Search() {
                       placeholder="Email, Phone or Key"
                     />
                   </div>
+                  <br/>
+                  <Button type="submit" variant='contained'>FIND RSVP</Button>
                 </Form>
               )}
             </Formik>

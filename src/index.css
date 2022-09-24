@@ -195,6 +195,18 @@ section {
     font-weight: bold;
 }
 
+.search-title {
+    font-size: 3rem !important;
+}
+
+hr {
+    opcaity: 0.6;
+    width: 350px;
+    height: .25rem;
+    margin: 3rem auto;
+    background-color:#666;
+ }
+
 
 @media only screen and (max-width: 800px) {
     .title-home {
