@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: optima !important;
+    font-style: normal;
+    font-weight: 400;
+    font-family: mrs-eaves, serif !important;
 }
 
 html, body {
@@ -54,24 +56,28 @@ section {
 }
 
 .content-home {
-    color: white;
-    padding-top: 70vh;
+    padding-top: 10vh;
     vertical-align: middle;
     text-align: center;
 }
 
+.home-img {
+    height: 80vh;
+}
+
 .title-home {
-    text-shadow: 1rem 1rem 2rem #2f3333;
-    /* font-weight: bolder !important; */
     font-family: vanitas-bold !important;
 }
 
 .sub-title-home {
     font-size: 3rem !important;
-    text-shadow: 1rem 1rem 2rem #2f3333;
-    font-style: normal;
-    font-weight: 400;
-    font-family: mrs-eaves, serif !important;
+    padding: 3rem;
+    font-family: anter !important;
+}
+
+.sub-title-home-line-two {
+    font-size: 3rem !important;
+    padding-bottom: 3rem;
 }
 
 .nav-home {
@@ -118,12 +124,6 @@ section {
     font-weight: bolder !important;
 }
 
-.mrs-eaves {
-    font-style: normal;
-    font-weight: 400;
-    font-family: mrs-eaves, serif !important;
-}
-
 .home--title-button {
     vertical-align: middle;
     text-align: center;
@@ -153,6 +153,7 @@ section {
 }
 .home--the-wedding-image {
     height: 40rem;
+    margin-bottom: 5rem;
 }
 
 .registration-key-search {
@@ -199,6 +200,10 @@ section {
     .sub-title-home {
         font-size: 36px !important;
     }
+    
+    .sub-title-home-line-two {
+        font-size: 36px !important;
+    }
 
     .home--title-section {
         font-size: 52px !important;
@@ -206,6 +211,11 @@ section {
 }
 
 @media only screen and (min-width: 1050px) {
+    section {
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+
     .mobile-nav {
         display: none;
     }
@@ -216,19 +226,34 @@ section {
 }
 
 @media only screen and (max-width: 1000px) {
+    section {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
     .nav-home {
         display: none;
     }
 }
 
 @media only screen and (max-width: 700px) {
+    section {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
 
     .title-home {
-        font-size: 32px !important;
+        font-size: 46px !important;
     }
 
     .sub-title-home {
-        font-size: 18px !important;
+        font-size: 36px !important;
+        padding: 36px;
+    }
+
+    .sub-title-home-line-two {
+        font-size: 36px !important;
+        padding: 36px;
     }
 
     .home--title-section {

@@ -32,9 +32,10 @@ export const timelineLocalization = new LocalizedStrings({
 
 export const homeLocalization = new LocalizedStrings({
   en: {
-    travelTitle: 'Travel Details',
+    travelTitle: 'Travel',
     scheduleTitle: 'Schedule',
-    subtitle: 'September 13, 2023',
+    subtitle: 'Please join us for our wedding celebration on',
+    subtitle2: 'September 13, 2023',
     ourStory: 'This is a summary of our story',
     theWedding: 'Join us in celebrating a night of our love and life together. On Lake Como\'s coast, Hotel Villa Cipressi sets the mood for the perfect romantic getaway where we will tie the knot. More details to follow.',
     gallery: 'Here is a gallery of images',
@@ -56,9 +57,10 @@ export const homeLocalization = new LocalizedStrings({
     transportation: 'Safe Airport Transfers to and from Lake Como - Milan Area',
   },
   es: {
-    travelTitle: 'Detalles de Viaje',
+    travelTitle: 'Viaje',
     scheduleTitle: 'Cronograma',
-    subtitle: 'Septiembre 13, 2023',
+    subtitle: 'Por favor únete a nosotras para nuestra celebración de boda en',
+    subtitle2: 'Septiembre 13, 2023',
     ourStory: 'Este es un resumen de nuestra historia',
     theWedding: 'Acompáñanos a celebrar nuestra unión. En la costa del lago Como, el Hotel Villa Cipressi dispondrá el ambiente para el perfecto escape romántico en que daremos el sí. Más detalles a seguir',
     gallery: 'Aqui una galeria de imagenes',
@@ -82,7 +84,8 @@ export const homeLocalization = new LocalizedStrings({
   br: {
     travelTitle: 'Viagem',
     scheduleTitle: 'Cronograma',
-    subtitle: 'Setembro 13, 2023',
+    subtitle: 'Por favor, junte-se a nós para a nossa festa de casamento em',
+    subtitle2: 'Setembro 13, 2023',
     ourStory: 'Este é um resumo da nossa história',
     theWedding: 'Junte-se a nós para celebrar uma noite de nosso amor e vida juntos. Na costa do Lago de Como, o Hotel Villa Cipressi cria o clima para uma escapadela romântica perfeita onde nos casaremos. Mas detalles a seguir',
     gallery: 'Aqui está uma galeria de imagens',

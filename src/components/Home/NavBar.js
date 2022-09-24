@@ -20,7 +20,7 @@ function NavBar() {
   return (
     <>
       <div className={'nav-home'}>
-        {links.map(({url, label}, i) => <a href={url} key={i}><Typography className="mrs-eaves">{label}</Typography></a>)}
+        {links.map(({url, label}, i) => <a href={url} key={i}><Typography>{label}</Typography></a>)}
         <LanguagePicker/>
       </div>
       <div className={'mobile-nav'}>
@@ -40,7 +40,7 @@ function NavBar() {
               {links.map(({url, label}, i) => (<a className="styled-nav-link" href={url} key={i}>
                 <ListItem>
                   <ListItemText>
-                    <span className="mrs-eaves">{label}</span>
+                    {label}
                   </ListItemText>
                 </ListItem>
               </a>))}

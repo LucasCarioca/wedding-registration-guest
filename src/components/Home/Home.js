@@ -5,18 +5,26 @@ import Footer from '../common/Footer';
 import OurStoryTimeline from './OurStoryTimeline';
 import hotelRoomImg from '../../assets/hotel-home.jpeg';
 import theWeddingImg from '../../assets/the-wedding.JPG';
+import mobileImg from '../../mobile.jpg';
 
 const Home = ({children}) => {
   return (
     <>
       {children}
-      <div className={'parallax-home'} id={'home'}>
+      <div id={'home'}>
         <div className={'content-home'}>
-          <Typography className={'title-home'} variant={'h1'}>KAREN & LUCAS</Typography>
-          <Typography className={'sub-title-home'}>{homeLocalization.subtitle.toUpperCase()}</Typography>
+          <Typography className={'title-home'} variant={'h1'}>KAREN</Typography>
+          <br/>
+          <Typography className={'title-home'} variant={'h2'}>and</Typography>
+          <br/>
+          <Typography className={'title-home'} variant={'h1'}>LUCAS</Typography>
+          <img className="home-img" src={mobileImg}/>
+          <Typography className={'sub-title-home'}>{homeLocalization.subtitle}</Typography>
+          <Typography className={'sub-title-home-line-two'}>{homeLocalization.subtitle2.toUpperCase()}</Typography>
         </div>
       </div>
-      <section id={'the-wedding'}>
+
+      <section id={'the-wedding'} className={'alternate-color'}>
         <Typography className={'home--title-section'} variant={'h2'}>{homeLocalization.theWeddingTitle}</Typography>
         <SectionDivider/>
         <Typography className={'home--main-paragraph-section'}>
@@ -26,7 +34,8 @@ const Home = ({children}) => {
           <img src={theWeddingImg} className="home--the-wedding-image"/>
         </div>
       </section>
-      <section id={'travel'} className={'alternate-color'}>
+
+      <section id={'travel'}>
         <Typography className={'home--title-section'} variant={'h2'}>{homeLocalization.travelTitle}</Typography>
         <div className="home--travel-subsection">
           <Typography className={'home--title-sub-section'} variant={'h4'}>{homeLocalization.accommodationsTitle}</Typography>
@@ -78,7 +87,8 @@ const Home = ({children}) => {
         {/*  </div>*/}
         {/* </div>*/}
       </section>
-      <section id={'our-story'}>
+
+      <section id={'our-story'} className={'alternate-color'}>
         <Typography className={'home--title-section'} variant={'h2'}>{homeLocalization.ourStoryTitle}</Typography>
         <SectionDivider/>
         {/* <Typography className={'home--main-paragraph-section'}>
