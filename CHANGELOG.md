@@ -1,3 +1,10 @@
+# [0.15.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.14.0...v0.15.0) (2022-09-24)
+
+
+### Features
+
+* style changes ([c953d2e](https://github.com/LucasCarioca/wedding-registration-guest/commit/c953d2e904748302095f6ced78242dd767607c7a))
+
 # [0.14.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.13.1...v0.14.0) (2022-09-24)
 
 
