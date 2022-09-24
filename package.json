@@ -1,6 +1,6 @@
 {
   "name": "wedding-registration-guest",
-  "version": "0.17.0",
+  "version": "0.17.1",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
