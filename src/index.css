@@ -77,6 +77,10 @@ section {
 
 .sub-title-home-line-two {
     font-size: 3rem !important;
+}
+
+.sub-title-home-line-three {
+    font-size: 1rem !important;
     padding-bottom: 3rem;
 }
 

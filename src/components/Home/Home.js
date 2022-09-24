@@ -6,6 +6,7 @@ import OurStoryTimeline from './OurStoryTimeline';
 import hotelRoomImg from '../../assets/hotel-home.jpeg';
 import theWeddingImg from '../../assets/the-wedding.JPG';
 import mobileImg from '../../mobile.jpg';
+import {daysUntil} from '../common/count-down';
 
 const Home = ({children}) => {
   return (
@@ -21,6 +22,7 @@ const Home = ({children}) => {
           <img className="home-img" src={mobileImg}/>
           <Typography className={'sub-title-home'}>{homeLocalization.subtitle}</Typography>
           <Typography className={'sub-title-home-line-two'}>{homeLocalization.subtitle2.toUpperCase()}</Typography>
+          <Typography className={'sub-title-home-line-three'}>{daysUntil(homeLocalization.subtitle3)}!</Typography>
         </div>
       </div>
 
