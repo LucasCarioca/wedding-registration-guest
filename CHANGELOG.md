@@ -1,3 +1,10 @@
+## [0.13.1](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.13.0...v0.13.1) (2022-09-21)
+
+
+### Bug Fixes
+
+* update navlink ([d12fed8](https://github.com/LucasCarioca/wedding-registration-guest/commit/d12fed886d9be5b334f5a53edf402e35417db74a))
+
 # [0.13.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.12.6...v0.13.0) (2022-09-20)
 
 
