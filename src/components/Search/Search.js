@@ -30,7 +30,7 @@ function Search() {
                     setRegistrationKey(registration.registration_key);
                     history.push(`/invitations/${registration.registration_key}/guests`);
                   })
-                  .catch(_ => setError(`Invitation no found using ${values.searchString}`));
+                  .catch(_ => setError(`Invitation not found using ${values.searchString}`));
               }}
             >
               {(formik) => (
