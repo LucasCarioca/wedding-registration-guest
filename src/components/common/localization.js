@@ -56,6 +56,12 @@ export const homeLocalization = new LocalizedStrings({
     howToArrive: 'Once in the Milan airport, guests will take the Milano Centrale to Varenna- esino train station arriving directly in Varenna',
     travelAgent: 'If you wish to visit other places in Europe, our travel agent Luciane Garcia will be happy to help you with the plane tickets, planning your itinerary, and finding accommodations. Please note bookings can only be made as early as October 2022',
     transportation: 'Safe Airport Transfers to and from Lake Como - Milan Area',
+    eventsTitle: 'Events',
+    events: [
+      {title: 'Welcome Party', date: 'September 12, 2023', details: 'More details to come'},
+      {title: 'The Wedding Day', date: 'September 13, 2023', details: 'More details to come'},
+      {title: 'Farewell Event', date: 'September 14, 2023', details: 'More details to come'},
+    ]
   },
   es: {
     travelTitle: 'Viaje',
@@ -82,6 +88,12 @@ export const homeLocalization = new LocalizedStrings({
     howToArrive: 'Cuando llegues al aeropuerto de Milan, puedes tomar el tren desde la estación Milano Centrale a la estación de Varenna-esino que queda directamente en Varenna',
     travelAgent: 'Quienes deseen visitar otros lugares en Europa, a partir de octubre del 2022, nuestra agente de viajes Luciane Garcia los puede asesorar comprando los pasajes, planeando el itinerario, y hospedaje',
     transportation: 'Servicio de conductor privado del Lago de Como - Milan Area',
+    eventsTitle: 'Eventos',
+    events: [
+      {title: 'Welcome Party', date: 'Septiembre 12, 2023', details: 'Mas detalles por venir'},
+      {title: 'Dia De La Boda', date: 'Septiembre 13, 2023', details: 'Mas detalles por venir'},
+      {title: 'Evento De Despedida', date: 'Septiembre 14, 2023', details: 'Mas detalles por venir'},
+    ]
   },
   br: {
     travelTitle: 'Viagem',
@@ -108,6 +120,12 @@ export const homeLocalization = new LocalizedStrings({
     howToArrive: 'Once in the Milan airport, guests will take the Milano Centrale to Varenna- esino train station arriving directly in Varenna',
     travelAgent: 'If you wish to visit other places in Europe, our travel agent Luciane Garcia will be happy to help you with the plane tickets, planning your itinerary, and finding accommodations. Please note bookings can only be made as early as October 2022',
     transportation: 'Safe Airport Transfers to and from Lake Como - Milan Area',
+    eventsTitle: 'Eventos',
+    events: [
+      {title: 'Welcome Party', date: 'Setembro 12, 2023', details: 'Mais detalhes em breve'},
+      {title: 'Dia Do Casamento', date: 'Setembro 13, 2023', details: 'Mais detalhes em breve'},
+      {title: 'Evento De Despedida', date: 'Setembro 14, 2023', details: 'Mais detalhes em breve'},
+    ]
   }
 });
 

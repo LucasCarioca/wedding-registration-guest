@@ -37,7 +37,24 @@ const Home = ({children}) => {
         </div>
       </section>
 
-      <section id={'travel'}>
+      <section id={'events'}>
+        <Typography className={'home--title-section'} variant={'h2'}>{homeLocalization.eventsTitle}</Typography>
+        <SectionDivider/>
+        {homeLocalization.events.map((event, i) => (<div key={i}>
+          <Typography className={'home--title-sub-section'} variant={'h4'}>
+            {event.title}
+          </Typography>
+          <Typography className={'home--main-paragraph-section'}>
+            {event.date}
+          </Typography>
+          <Typography className={'home--main-paragraph-section'}>
+            {event.details}
+          </Typography>
+          {(i < homeLocalization.events.length -1) && <hr/>}
+        </div>))}
+      </section>
+
+      <section id={'travel'} className={'alternate-color'}>
         <Typography className={'home--title-section'} variant={'h2'}>{homeLocalization.travelTitle}</Typography>
         <div className="home--travel-subsection">
           <Typography className={'home--title-sub-section'} variant={'h4'}>{homeLocalization.accommodationsTitle}</Typography>
@@ -90,7 +107,7 @@ const Home = ({children}) => {
         {/* </div>*/}
       </section>
 
-      <section id={'our-story'} className={'alternate-color'}>
+      <section id={'our-story'}>
         <Typography className={'home--title-section'} variant={'h2'}>{homeLocalization.ourStoryTitle}</Typography>
         <SectionDivider/>
         {/* <Typography className={'home--main-paragraph-section'}>
