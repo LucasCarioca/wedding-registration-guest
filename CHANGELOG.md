@@ -1,3 +1,10 @@
+## [0.18.1](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.18.0...v0.18.1) (2022-10-23)
+
+
+### Bug Fixes
+
+* add link to events sections ([1e4f4e9](https://github.com/LucasCarioca/wedding-registration-guest/commit/1e4f4e91e0d08456ffedd3a229714e4a695b9f7e))
+
 # [0.18.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.17.4...v0.18.0) (2022-10-23)
 
 
