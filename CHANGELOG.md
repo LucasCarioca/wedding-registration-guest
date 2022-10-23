@@ -1,3 +1,10 @@
+# [0.18.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.17.4...v0.18.0) (2022-10-23)
+
+
+### Features
+
+* add events section ([b6b2641](https://github.com/LucasCarioca/wedding-registration-guest/commit/b6b2641039170e7e74dedfaf15b4e581ce672750))
+
 ## [0.17.4](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.17.3...v0.17.4) (2022-10-23)
 
 
