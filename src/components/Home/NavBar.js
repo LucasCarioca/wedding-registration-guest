@@ -10,6 +10,7 @@ function NavBar() {
   const links = [
     {url: '/#home', label: homeLocalization.homeTitle.toUpperCase()},
     {url: '/#the-wedding', label: homeLocalization.theWeddingTitle.toUpperCase()},
+    {url: '/#events', label: homeLocalization.eventsTitle.toUpperCase()},
     {url: '/#travel', label: homeLocalization.travelTitle.toUpperCase()},
     {url: '/#our-story', label: homeLocalization.ourStoryTitle.toUpperCase()},
     // {url: '/#gallery', label: homeLocalization.galleryTitle.toUpperCase()},
