@@ -14,7 +14,6 @@ jobs:
       image_name: lucascarioca/wedding-registration-guest
       env_file: do.env
     secrets:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
       username: ${{ github.actor }}
       password: ${{ secrets.GITHUB_TOKEN }}
   deploy:
