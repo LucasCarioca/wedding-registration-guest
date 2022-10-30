@@ -4,15 +4,29 @@ on:
 jobs:
   ci:
 #    uses: LucasCarioca/workflows/.github/workflows/ci-yarn.yml@v0.5.0
-    uses: LucasCarioca/workflows/.github/workflows/ci-yarn.yml@v0.9.2
+    uses: LucasCarioca/workflows/.github/workflows/ci-yarn.yml@v0.9.3
   release:
     needs: ci
     if: github.ref == 'refs/heads/main'
-    uses: LucasCarioca/workflows/.github/workflows/release-yarn-docker.yml@v0.9.2
+    uses: LucasCarioca/workflows/.github/workflows/release-yarn-docker.yml@v0.9.3
     with:
       registry: ghcr.io
       image_name: lucascarioca/wedding-registration-guest
       env_file: do.env
     secrets:
+      username: ${{ github.actor }}
+      password: ${{ secrets.GITHUB_TOKEN }}
+  deploy:
+    uses: LucasCarioca/workflows/.github/workflows/deploy-kubernetes.yml@v0.9.3
+    with:
+      registry: ghcr.io
+      image_name: lucascarioca/wedding-registration-guest
+      deployment: wedding-guest
+      container: wedding-guest
+      namespace: wedding
+      version: ${{ github.event.inputs.version }}
+      config_path: k8s/civo
+    secrets:
+      kube_config: ${{ secrets.CIVO_KUBE_CONFIG }}
       username: ${{ github.actor }}
       password: ${{ secrets.GITHUB_TOKEN }}
