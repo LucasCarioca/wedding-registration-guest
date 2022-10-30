@@ -1,3 +1,15 @@
+## [0.18.2](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.18.1...v0.18.2) (2022-10-30)
+
+
+### Bug Fixes
+
+* deploy to civo ([e5f386e](https://github.com/LucasCarioca/wedding-registration-guest/commit/e5f386e9b769c82e6f361b0592cdfe6eda229e37))
+* deploy to civo ([a5ee6a6](https://github.com/LucasCarioca/wedding-registration-guest/commit/a5ee6a6f0a2b1735f7e6ccb30dae4fd029c24177))
+* deploy to civo ([115d372](https://github.com/LucasCarioca/wedding-registration-guest/commit/115d372199010a505a80f23f2f29cc1d08e3b07f))
+* deploy to civo ([5a09541](https://github.com/LucasCarioca/wedding-registration-guest/commit/5a095416984f97fa761e18bc836c7021b18643c7))
+* use new workflow civo deploy ([15fa885](https://github.com/LucasCarioca/wedding-registration-guest/commit/15fa88573e821eadb26bf4d8905704c04713ebc9))
+* use new workflows ([4486bc6](https://github.com/LucasCarioca/wedding-registration-guest/commit/4486bc6bfd2bc7821772264994fc7fa414d72cca))
+
 ## [0.18.1](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.18.0...v0.18.1) (2022-10-23)
 
 
