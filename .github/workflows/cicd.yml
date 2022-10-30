@@ -3,4 +3,16 @@ on:
   push:
 jobs:
   ci:
-    uses: LucasCarioca/workflows/.github/workflows/ci-yarn.yml@v0.5.0
+#    uses: LucasCarioca/workflows/.github/workflows/ci-yarn.yml@v0.5.0
+    uses: LucasCarioca/workflows/.github/workflows/ci-yarn.yml@v0.9.2
+  release:
+    needs: ci
+    if: github.ref == 'refs/heads/main'
+    uses: LucasCarioca/workflows/.github/workflows/release-yarn-docker.yml@v0.9.2
+    with:
+      registry: ghcr.io
+      image_name: lucascarioca/wedding-registration-guest
+      env_file: do.env
+    secrets:
+      username: ${{ github.actor }}
+      password: ${{ secrets.GITHUB_TOKEN }}
