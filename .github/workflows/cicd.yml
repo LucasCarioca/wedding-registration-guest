@@ -5,7 +5,6 @@ jobs:
   ci:
     uses: LucasCarioca/workflows/.github/workflows/ci-yarn.yml@v0.9.7
   release:
-    needs: ci
     if: github.ref == 'refs/heads/main'
     uses: LucasCarioca/workflows/.github/workflows/release-yarn-docker.yml@v0.9.7
     with:
@@ -16,7 +15,7 @@ jobs:
       username: ${{ github.actor }}
       password: ${{ secrets.GITHUB_TOKEN }}
   deploy:
-    needs: release
+    needs: [release, ci]
     uses: LucasCarioca/workflows/.github/workflows/deploy-kubernetes.yml@v0.9.7
     with:
       registry: ghcr.io
