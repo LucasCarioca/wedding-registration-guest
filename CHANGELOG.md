@@ -1,3 +1,10 @@
+## [0.18.3](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.18.2...v0.18.3) (2022-10-31)
+
+
+### Bug Fixes
+
+* use new workflow ([54aa709](https://github.com/LucasCarioca/wedding-registration-guest/commit/54aa709af4a21b3525b7e5a8c127b900dd40a600))
+
 ## [0.18.2](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.18.1...v0.18.2) (2022-10-30)
 
 
