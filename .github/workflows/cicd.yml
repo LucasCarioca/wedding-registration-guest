@@ -3,7 +3,6 @@ on:
   push:
 jobs:
   ci:
-#    uses: LucasCarioca/workflows/.github/workflows/ci-yarn.yml@v0.5.0
     uses: LucasCarioca/workflows/.github/workflows/ci-yarn.yml@v0.9.7
   release:
     needs: ci
