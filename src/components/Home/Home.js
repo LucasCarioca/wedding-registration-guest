@@ -32,11 +32,10 @@ const Home = ({children}) => {
         <Typography className={'home--main-paragraph-section'}>
           {homeLocalization.theWedding}
         </Typography>
-        <div className="center-content">
-          <img src={theWeddingImg} className="home--the-wedding-image"/>
-        </div>
       </section>
-
+      <div className="center-content alternate-color image-container">
+        <img src={theWeddingImg} className="home--the-wedding-image"/>
+      </div>
       <section id={'events'}>
         <Typography className={'home--title-section'} variant={'h2'}>{homeLocalization.eventsTitle}</Typography>
         <SectionDivider/>

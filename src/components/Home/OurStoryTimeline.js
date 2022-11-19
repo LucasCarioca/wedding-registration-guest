@@ -12,7 +12,7 @@ import {Typography} from '@mui/material';
 
 function OurStoryTimeline() {
   return (
-    <>
+    <div className={'timeline'}>
       <Timeline>
         {timelineLocalization.items.map((item, i) => (
           <TimelineItem key={i}>
@@ -37,7 +37,7 @@ function OurStoryTimeline() {
         ))}
 
       </Timeline>
-    </>
+    </div>
   );
 };
 
