@@ -33,7 +33,7 @@ function LanguagePicker() {
       aria-expanded={open ? 'true' : undefined}
       onClick={handleClick}
     >
-      <Typography style={{fontSize: '20px'}}>{languages.find(l => language == l.name).icon}</Typography>
+      <Typography style={{fontSize: '20px'}}>{languages.find(l => language === l.name).icon}</Typography>
     </Button>
     <Menu
       id="language-menu"

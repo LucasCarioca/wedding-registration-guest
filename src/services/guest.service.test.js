@@ -1,10 +1,10 @@
+import axios from 'axios';
+import {createGuest, deleteGuest, getAllGuests} from './guest.service';
 jest.mock('axios', () => ({
   get: jest.fn(),
   post: jest.fn(),
   delete: jest.fn()
 }));
-import axios from 'axios';
-import {createGuest, deleteGuest, getAllGuests} from './guest.service';
 
 describe('guest.service', function() {
   it('should get all guests for the invitation', async function() {
@@ -28,7 +28,7 @@ describe('guest.service', function() {
       phone: expectedPhone
     });
   });
-  it('should create a guest', function() {
+  it('should delete a guest', function() {
     const expectedId = 1;
     axios.delete.mockResolvedValueOnce({data: {}});
     deleteGuest(expectedId);

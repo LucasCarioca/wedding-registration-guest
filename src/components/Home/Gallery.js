@@ -70,7 +70,7 @@ function Gallery() {
 function ImageOverlay({img, onDismiss}) {
   return (
     <div className="image-overlay" onClick={onDismiss}>
-      <img src={img} className="image-overlay-content"/>
+      <img src={img} className="image-overlay-content" alt={'placeholder'}/>
     </div>
   );
 }

@@ -1,8 +1,8 @@
+import axios from 'axios';
+import {getInvitation} from './invitation.service';
 jest.mock('axios', () => ({
   get: jest.fn()
 }));
-import axios from 'axios';
-import {getInvitation} from './invitation.service';
 
 describe('invitation.service', function() {
   it('should get invitation for the saved registration key', async function() {

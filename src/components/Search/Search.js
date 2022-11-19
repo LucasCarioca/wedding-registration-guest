@@ -35,7 +35,7 @@ function Search() {
             >
               {(formik) => (
                 <Form>
-                  {error != '' && (
+                  {error !== '' && (
                     <Alert severity={'error'}>{error}</Alert>
                   )}
                   <br/>

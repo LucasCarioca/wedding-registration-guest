@@ -19,7 +19,7 @@ const Home = ({children}) => {
           <Typography className={'title-home'} variant={'h2'}>and</Typography>
           <br/>
           <Typography className={'title-home'} variant={'h1'}>LUCAS</Typography>
-          <img className="home-img" src={mobileImg}/>
+          <img className="home-img" src={mobileImg} alt={'Karen and Lucas'}/>
           <Typography className={'sub-title-home'}>{homeLocalization.subtitle}</Typography>
           <Typography className={'sub-title-home-line-two'}>{homeLocalization.subtitle2.toUpperCase()}</Typography>
           <Typography className={'sub-title-home-line-three'}>{daysUntil(homeLocalization.subtitle3)}!</Typography>
@@ -34,7 +34,7 @@ const Home = ({children}) => {
         </Typography>
       </section>
       <div className="center-content alternate-color image-container">
-        <img src={theWeddingImg} className="home--the-wedding-image"/>
+        <img src={theWeddingImg} className="home--the-wedding-image" alt={'Karen and Lucas at Lake Como Italy'}/>
       </div>
       <section id={'events'}>
         <Typography className={'home--title-section'} variant={'h2'}>{homeLocalization.eventsTitle}</Typography>
@@ -62,7 +62,7 @@ const Home = ({children}) => {
             {homeLocalization.accommodations}
           </Typography>
           <div className="center-content">
-            <img src={hotelRoomImg} className="home--hotel-image"/>
+            <img src={hotelRoomImg} className="home--hotel-image" alt={"Venue Hotel Room"}/>
           </div>
           <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'row'}}>
             <Button variant={'outlined'} className={'home--title-button'} target={'_blank'} href={'mailto:info@hotelvillacipressi.it'}>Email Hotel</Button>

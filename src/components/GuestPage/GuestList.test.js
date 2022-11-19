@@ -24,7 +24,7 @@ describe('guestList', function() {
     render(<GuestList list={guests} onChange={mockOnChange}/>);
     expect(screen.getByText(guests[0].first_name)).toBeInTheDocument();
   });
-  it('should show invitations in the component', async function() {
+  it('should delete invitations', async function() {
     deleteGuest.mockResolvedValue();
     const guests = [{
       id: 12345,
