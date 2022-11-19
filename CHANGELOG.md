@@ -1,3 +1,10 @@
+## [0.18.7](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.18.6...v0.18.7) (2022-11-19)
+
+
+### Bug Fixes
+
+* upgrade react and clean up lint issues ([1e9db1f](https://github.com/LucasCarioca/wedding-registration-guest/commit/1e9db1f1bf961e324ecd5d649043dfaa88ae46f3))
+
 ## [0.18.6](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.18.5...v0.18.6) (2022-11-19)
 
 
