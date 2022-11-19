@@ -1,3 +1,10 @@
+## [0.18.5](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.18.4...v0.18.5) (2022-11-19)
+
+
+### Bug Fixes
+
+* image overflow ([c3c99b4](https://github.com/LucasCarioca/wedding-registration-guest/commit/c3c99b4ae7a00a71eb64a225c3d81340a3bb6689))
+
 ## [0.18.4](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.18.3...v0.18.4) (2022-10-31)
 
 
