@@ -62,7 +62,6 @@
     "semantic-release": "^19.0.3"
   },
   "resolutions": {
-    "loader-utils": ">=2.0.4",
     "nth-check": ">=2.0.1"
   }
 }
