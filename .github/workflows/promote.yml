@@ -6,7 +6,7 @@ on:
         required: true
 jobs:
   deploy:
-    uses: LucasCarioca/workflows/.github/workflows/deploy-kubernetes.yml@v0.9.8
+    uses: LucasCarioca/workflows/.github/workflows/deploy-kubernetes.yml@v0.9.9
     with:
       registry: ghcr.io
       image_name: lucascarioca/wedding-registration-guest
