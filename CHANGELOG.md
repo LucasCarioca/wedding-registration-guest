@@ -1,3 +1,11 @@
+## [0.20.1](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.20.0...v0.20.1) (2022-11-20)
+
+
+### Bug Fixes
+
+* clean vulnerabilities ([6eb73a3](https://github.com/LucasCarioca/wedding-registration-guest/commit/6eb73a3f3e9f86b224ccbb463a7ec78f2b88b868))
+* new build fixed version number ([2973122](https://github.com/LucasCarioca/wedding-registration-guest/commit/2973122fed178d40679caeb6752c18ffebcbf126))
+
 # [0.20.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.19.0...v0.20.0) (2022-11-20)
 
 
