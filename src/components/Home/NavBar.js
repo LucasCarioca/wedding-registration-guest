@@ -15,7 +15,7 @@ function NavBar() {
     {url: '/#our-story', label: homeLocalization.ourStoryTitle.toUpperCase()},
     // {url: '/#gallery', label: homeLocalization.galleryTitle.toUpperCase()},
     // {url: '/#contact', label: homeLocalization.contactTitle.toUpperCase()},
-    // {url: '/#registry', label: homeLocalization.registryTitle.toUpperCase()},
+    {url: 'https://www.zola.com/registry/lucasandkaren2023', label: homeLocalization.registryTitle.toUpperCase()},
     {url: '/search', label: homeLocalization.invitationTitle.toUpperCase()},
   ];
   return (
