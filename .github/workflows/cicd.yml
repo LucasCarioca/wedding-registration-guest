@@ -6,6 +6,7 @@ jobs:
     uses: LucasCarioca/workflows/.github/workflows/ci-yarn.yml@v0.9.9
   release:
     if: github.ref == 'refs/heads/main'
+    needs: [ci]
     uses: LucasCarioca/workflows/.github/workflows/release-yarn-docker.yml@v0.9.9
     with:
       registry: ghcr.io
