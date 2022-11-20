@@ -8,7 +8,7 @@ env:
   WORKFLOWS_VERSION: v0.9.8
 jobs:
   deploy:
-    uses: LucasCarioca/workflows/.github/workflows/deploy-kubernetes.yml@@${{ env.WORKFLOWS_VERSION }}
+    uses: 'LucasCarioca/workflows/.github/workflows/deploy-kubernetes.yml@@${{ env.WORKFLOWS_VERSION }}'
     with:
       registry: ghcr.io
       image_name: lucascarioca/wedding-registration-guest
