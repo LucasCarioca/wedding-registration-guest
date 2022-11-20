@@ -1,3 +1,10 @@
+## [0.20.2](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.20.1...v0.20.2) (2022-11-20)
+
+
+### Bug Fixes
+
+* remove breaking resolution ([94eca20](https://github.com/LucasCarioca/wedding-registration-guest/commit/94eca209a9bbeb4215e0e0240c59022595000fbb))
+
 ## [0.20.1](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.20.0...v0.20.1) (2022-11-20)
 
 
