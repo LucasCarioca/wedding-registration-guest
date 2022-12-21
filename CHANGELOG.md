@@ -1,3 +1,10 @@
+## [0.20.7](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.20.6...v0.20.7) (2022-12-21)
+
+
+### Bug Fixes
+
+* update port on image ([126ba9b](https://github.com/LucasCarioca/wedding-registration-guest/commit/126ba9bf3d0e4c0ad9c97873588470cfda9adb36))
+
 ## [0.20.6](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.20.5...v0.20.6) (2022-12-21)
 
 
