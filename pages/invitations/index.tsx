@@ -46,7 +46,7 @@ export default function InvitationSearch() {
             }}>
               <input
                 className={styles['registration-key-search']}
-                placeholder="Email, Phone or Key"
+                placeholder="Phone Number"
                 {...register('searchText', { required: true })}
               />
             </div>
