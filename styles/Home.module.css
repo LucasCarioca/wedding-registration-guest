@@ -1,0 +1,64 @@
+.content-home {
+    padding-top: 10vh;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.home-img {
+    max-height: 80vh;
+    max-width: 100vw;
+}
+
+.title-home {
+    font-family: vanitas-bold !important;
+}
+
+.sub-title-home {
+    font-size: 3rem !important;
+    padding: 3rem;
+    font-family: anter !important;
+}
+
+.sub-title-home-line-two {
+    font-size: 3rem !important;
+}
+
+.sub-title-home-line-three {
+    font-size: 1rem !important;
+    padding-bottom: 3rem;
+}
+
+.the-wedding-image {
+    height: 40rem;
+    margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .title-home {
+        font-size: 52px !important;
+    }
+
+    .sub-title-home {
+        font-size: 36px !important;
+    }
+    
+    .sub-title-home-line-two {
+        font-size: 36px !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .title-home {
+        font-size: 46px !important;
+    }
+
+    .sub-title-home {
+        font-size: 36px !important;
+        padding: 36px;
+    }
+
+    .sub-title-home-line-two {
+        font-size: 36px !important;
+        padding: 36px;
+    }
+}
