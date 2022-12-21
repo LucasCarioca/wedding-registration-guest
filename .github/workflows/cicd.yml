@@ -13,6 +13,7 @@ jobs:
       image_name: lucascarioca/wedding-registration-guest
       env_file: prod.env
       build: false
+      platform: linux/amd64
     secrets:
       username: ${{ github.actor }}
       password: ${{ secrets.GITHUB_TOKEN }}
