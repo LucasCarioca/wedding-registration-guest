@@ -1,0 +1,1 @@
+export type styledComponent = { styles: { [key: string]: string } };

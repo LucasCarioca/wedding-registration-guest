@@ -1,0 +1,42 @@
+{
+    "travelTitle": "Viaje",
+    "scheduleTitle": "Cronograma",
+    "subtitle": "Noa casamos",
+    "subtitle2": "Septiembre 13, 2023",
+    "subtitle3": "Días hasta el gran dia",
+    "ourStory": "Este es un resumen de nuestra historia",
+    "theWedding": "Acompáñanos a celebrar nuestra unión. En la costa del lago Como, el Hotel Villa Cipressi dispondrá el ambiente para el perfecto escape romántico en que daremos el sí. Más detalles a seguir",
+    "gallery": "Aqui una galeria de imagenes",
+    "contact": "Nuestra información de contacto",
+    "homeTitle": "Inicio",
+    "ourStoryTitle": "Nuestra historia",
+    "theWeddingTitle": "La Boda",
+    "galleryTitle": "Galería",
+    "contactTitle": "Contacto",
+    "registryTitle": "Lista de Regalos",
+    "invitationTitle": "Asistencia",
+    "accommodationsTitle": "Alojamiento",
+    "howToArriveTitle": "Como Llegar",
+    "travelAgentTitle": "Agente de viajes",
+    "transportationTitle": "Lake Como Private Transfers",
+    "accommodations": "Si quieres hospedarte en el Hotel Villa Cipressi o Royal Victoria, tenemos una tarifa de descuento para nuestros invitados. Puedes contactar al hotel directamente via email (info@hotelvillacipressi.it) e informarles que vas a asistir a la boda de Karen Ardila y Lucas de Souza del 12-14 de septiembre del 2023",
+    "howToArrive": "Cuando llegues al aeropuerto de Milan, puedes tomar el tren desde la estación Milano Centrale a la estación de Varenna-esino que queda directamente en Varenna",
+    "travelAgent": "Quienes deseen visitar otros lugares en Europa, a partir de octubre del 2022, nuestra agente de viajes Luciane Garcia los puede asesorar comprando los pasajes, planeando el itinerario, y hospedaje",
+    "transportation": "Servicio de conductor privado del Lago de Como - Milan Area",
+    "eventsTitle": "Eventos",
+
+    
+    "events": [
+      {"title": "Welcome Party", "date": "Septiembre 12, 2023", "details": "Mas detalles por venir"},
+      {"title": "Dia De La Boda", "date": "Septiembre 13, 2023", "details": "Mas detalles por venir"},
+      {"title": "Evento De Despedida", "date": "Septiembre 14, 2023", "details": "Mas detalles por venir"}
+    ],
+
+    "story": [
+      {"name": "Nos conocimos", "text": "Nos conocimos en una fiesta de Halloween de un amigo en común", "date": "Octubre del 2010", "image": ""},
+      {"name": "Empezamos a salir", "text": "Rápidamente nos enamoramos en nuestro último año de colegio", "date": "Noviembre del 2010", "image": ""},
+      {"name": "Inicio de nuestra vida juntos", "text": "Rentamos nuestro primer apartamento y nos mudamos con nuestros hijos perrunos, Toto Y Chloe", "date": "Mayo del 2015", "image": ""},
+      {"name": "Hogar dulce hogar", "text": "Compramos nuestra primera casa, y por fin le dimos a nuestros hijos perrunos el patio trasero que merecen", "date": "Abril del 2019", "image": ""},
+      {"name": "Ella dijo que si", "text": "Nos comprometimos en Croacia mientras contemplábamos el atardecer más hermoso en un velero", "date": "Agosto del 2021", "image": ""}
+    ]
+  }

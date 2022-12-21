@@ -1,0 +1,48 @@
+.nav-home {
+    z-index: 100;
+    margin: 0 !important;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-home a {
+    z-index: 100;
+    color: inherit;
+    text-decoration: inherit;
+    margin: 1rem;
+}
+
+.nav-home a:hover {
+    color: #325e60;
+    text-decoration: underline;
+}
+
+.mobile-nav {
+    display: block;
+}
+
+
+.styled-nav-link {
+    color: inherit;
+    text-decoration: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-family: mrs-eaves, serif !important;
+}
+
+@media only screen and (max-width: 1000px) {
+    .nav-home {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .mobile-nav {
+        display: none;
+    }
+}

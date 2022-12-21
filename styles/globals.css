@@ -1,0 +1,108 @@
+@font-face {
+  font-family: vanitas-bold;
+  src: url(../public/vanitas-bold.ttf);
+}
+
+@font-face {
+  font-family: anter;
+  src: url(../public/Anter.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-family: mrs-eaves, serif !important;
+}
+
+html,
+body {
+  background: white;
+}
+
+section {
+  background: white;
+}
+
+hr {
+  opcaity: 0.6;
+  width: 350px;
+  max-width: 80vw;
+  height: .25rem;
+  margin: 3rem auto;
+  background-color: #666;
+}
+
+.label-left {
+  font-weight: bold;
+}
+
+.center-content {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.image-container {
+  overflow: hidden;
+  width: 100vw;
+  height: 100%;
+}
+
+.alternate-color {
+  background: #ecf0f1;
+}
+
+.home-section-title {
+  padding: 5rem 2rem 2rem 2rem;
+  text-shadow: .5rem .5rem 1rem whitesmoke;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bolder !important;
+}
+
+.home-section-sub-title {
+  padding: 1rem 2rem 1rem 2rem;
+  text-shadow: .5rem .5rem 1rem whitesmoke;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bolder !important;
+}
+
+.home-section-main-paragraph {
+  font-size: 1.1rem !important;
+  padding: 2rem 2rem 2rem 2rem;
+  text-shadow: .5rem .5rem 1rem whitesmoke;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  section {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+
+  .home-section-title {
+    font-size: 52px !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  section {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  section {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  .home-section-title {
+    font-size: 32px !important;
+  }
+}

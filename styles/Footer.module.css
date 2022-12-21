@@ -1,0 +1,28 @@
+.attribution {
+    font-size: 1.1rem;
+    padding: .5rem 0;
+    text-align: center;
+}
+
+.languages {
+    font-size: 1.1rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.languages span {
+    color: #3498db;
+    cursor: pointer;
+    text-decoration: inherit;
+    margin: 1rem;
+}
+
+.languages span:hover {
+    color: #325e60;
+    text-decoration: underline;
+}
+
+.footer {
+    background: #e3e0e0;
+    padding: 2rem;
+}
