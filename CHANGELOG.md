@@ -1,3 +1,11 @@
+## [0.20.5](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.20.4...v0.20.5) (2022-12-21)
+
+
+### Bug Fixes
+
+* update  ([#11](https://github.com/LucasCarioca/wedding-registration-guest/issues/11)) ([62353f6](https://github.com/LucasCarioca/wedding-registration-guest/commit/62353f6d64cb223b0fae6e4051101e7a55975d2c))
+* update to using nexjs ([#10](https://github.com/LucasCarioca/wedding-registration-guest/issues/10)) ([d040e37](https://github.com/LucasCarioca/wedding-registration-guest/commit/d040e37351c5a4c8794643e429429fa2bf624652))
+
 ## [0.20.4](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.20.3...v0.20.4) (2022-12-18)
 
 
