@@ -6,7 +6,7 @@ metadata:
   labels:
     app: wedding-guest
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: wedding-guest
