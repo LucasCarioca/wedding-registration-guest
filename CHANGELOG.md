@@ -1,3 +1,12 @@
+## [0.20.8](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.20.7...v0.20.8) (2022-12-21)
+
+
+### Bug Fixes
+
+* hotel image size ([a737210](https://github.com/LucasCarioca/wedding-registration-guest/commit/a737210a0f79178cd446dd3b77ebe02fa9bf3424))
+* only ask for phone number ([c3f89e4](https://github.com/LucasCarioca/wedding-registration-guest/commit/c3f89e4cf950e4f9b71a8ef18fbb078435901871))
+* update error message for not found ([228237f](https://github.com/LucasCarioca/wedding-registration-guest/commit/228237f0157b1a35aca448d7250910340ff7ffca))
+
 ## [0.20.7](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.20.6...v0.20.7) (2022-12-21)
 
 
