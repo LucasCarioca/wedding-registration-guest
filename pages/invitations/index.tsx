@@ -21,7 +21,7 @@ export default function InvitationSearch() {
         throw Error('INVITATION_NOT_FOUND')
       })
       .catch((error) => {
-        setError(`Invitation not found using ${data.searchText}`)
+        setError(`Invitation not found using ${data.searchText}. Please use a phone number with out spaces or special characters and no country code.`)
       })
   }
   return (<>
