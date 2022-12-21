@@ -1,3 +1,11 @@
+## [0.20.6](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.20.5...v0.20.6) (2022-12-21)
+
+
+### Bug Fixes
+
+* remove multi-arch ([406ea6a](https://github.com/LucasCarioca/wedding-registration-guest/commit/406ea6a7851c2f05d47be870deb45938ca131f31))
+* typo ([a122cb1](https://github.com/LucasCarioca/wedding-registration-guest/commit/a122cb182704ffe569d325710ee93131009c5202))
+
 ## [0.20.5](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.20.4...v0.20.5) (2022-12-21)
 
 
