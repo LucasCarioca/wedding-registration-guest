@@ -18,7 +18,7 @@ export default function Travel({styles}: styledComponent) {
                     {dict.accommodations}
                 </Typography>
                 <div className="center-content">
-                    <img src="/hotel-home.jpg" className="home--hotel-image" alt={"Venue Hotel Room"} />
+                    <img src="/hotel-home.jpg" className={styles['hotel-image']} alt={"Venue Hotel Room"} />
                 </div>
                 <div className={'center-content'}>
                     <Button variant={'outlined'} className={'home--title-button'} target={'_blank'} href={'mailto:info@hotelvillacipressi.it'}>Email Hotel</Button>
