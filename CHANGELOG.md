@@ -1,3 +1,16 @@
+# [0.22.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.21.0...v0.22.0) (2022-12-22)
+
+
+### Bug Fixes
+
+* build ([8d83eaf](https://github.com/LucasCarioca/wedding-registration-guest/commit/8d83eafd382777de2272c5ef030677346aeb23dd))
+* hide form if max guests reached ([b2b3803](https://github.com/LucasCarioca/wedding-registration-guest/commit/b2b3803431d6fbf98540873197f0727177c27c95))
+
+
+### Features
+
+* update party management page ([a4bd542](https://github.com/LucasCarioca/wedding-registration-guest/commit/a4bd542263e4656c1d012edff96efe858ccef28c))
+
 # [0.21.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.20.8...v0.21.0) (2022-12-22)
 
 
