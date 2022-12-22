@@ -68,7 +68,9 @@ export default function GuestsPage({invitation: {registration_key, guest_count},
                 </Typography>
                 <br/>
                 <Typography><span className={'label-left'}>Number of people invited: </span>{guest_count}</Typography>
-                <GuestForm registration_key={registration_key}/>
+                {(guest_count > guests.length) && (
+                    <GuestForm registration_key={registration_key}/>
+                )}
                 <GuestListEdit registration_key={registration_key} guests={guests} guest_count={guest_count}
                                edit={edit}/>
             </>)}
