@@ -1,24 +1,21 @@
-import { Container, Typography } from "@mui/material"
-import Link from "next/link"
-import { useRouter } from "next/router"
-import {getAllGuests, getInvitation} from "../../src/services/invitation.service"
-
-import Events from "../../src/components/index/Events";
-import Home from "../../src/components/index/Home";
-import Story from "../../src/components/index/Story";
-import Travel from "../../src/components/index/Travel";
-import homeStyle from '../../styles/Home.module.css'
-import travelStyle from '../../styles/Travel.module.css'
+import {Avatar, Container, List, ListItem, ListItemText, Typography, ListItemAvatar, Button} from "@mui/material";
 import Head from "next/head";
+import {getAllGuests, getInvitation} from "../../src/services/invitation.service";
 import {Invitation} from "../../src/models/invitation";
 import {Guest} from "../../src/models/guest";
-import RSVPAlert from "../../src/components/invitations/RSVPAlert";
+import GuestForm from "../../src/components/invitations/GuestForm";
+import GuestListEdit from "../../src/components/invitations/GuestListEdit";
+import {useState} from "react";
+import PersonIcon from "@mui/icons-material/Person";
+import EditIcon from "@mui/icons-material/Edit";
+import DoneIcon from '@mui/icons-material/Done';
+import {Alert} from "@mui/lab";
 
 export async function getServerSideProps(context: any) {
-    const { registration_key } = context.query
+    const {registration_key} = context.query
     const invitation = await getInvitation(registration_key)
     const guests = await getAllGuests(registration_key)
-    return { props: { invitation, guests } }
+    return {props: {invitation, guests}}
 }
 
 type props = {
@@ -26,42 +23,55 @@ type props = {
     guests: Guest[]
 }
 
-export default function InvitationPage({invitation :{ registration_key, name, guest_count }, guests}: props) {
-    const { locale } = useRouter()
+export default function GuestsPage({invitation: {registration_key, guest_count}, guests}: props) {
+    const [edit, setEdit] = useState(false)
     return (<>
         <Head>
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <title>Karen & Lucas Wedding - RSVP</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <title>Karen & Lucas Wedding - Guests</title>
         </Head>
-        <br />
-        <br />
-        <section>
-            <Container>
-                <br />
-                <Typography variant={'h3'}>{name}</Typography>
-                <br />
-                <RSVPAlert registration_key={registration_key} guests={guests} guest_count={guest_count}/>
-                <br />
+        <Container style={{minHeight: '100vh', paddingTop: '100px'}}>
+            <Typography variant={'h2'}>Your Party</Typography>
+            {(guest_count === guests.length && !edit) ? (<>
+                <br/>
+                <Alert severity={'success'} action={
+                    <Button color={'success'} onClick={() => setEdit(true)}><EditIcon/> Edit</Button>
+                }>
+                    Thank you for completing your RSVP!
+                </Alert>
+                <br/>
+                <List>
+                    {guests.map(((guest, i) => (
+                        <ListItem key={i}>
+                            <ListItemAvatar>
+                                <Avatar>
+                                    <PersonIcon/>
+                                </Avatar>
+                            </ListItemAvatar>
+                            <ListItemText>{guest.first_name} {guest.last_name}</ListItemText>
+                        </ListItem>
+                    )))}
+                </List>
+            </>) : (<>
+                <br/>
+                {(guest_count === guests.length) && (<Alert severity={'warning'} action={
+                    <Button color={'warning'} onClick={() => setEdit(false)}><DoneIcon/> Stop Editing</Button>
+                }>
+                    Editing your party information.
+                </Alert>)}
+                <br/>
                 <Typography>
-                    You have been invited to Karen and Lucas&apos;s wedding on September 13th 2023, at Lake Como Italy. This
-                    site
-                    will be your guide to everything you need to know.
+                    Please fill out your information below and that of any other guests in your party.
                 </Typography>
-                <br />
-                <Typography>
-                    To begin please make sure to visit the <Link href={`/invitations/${registration_key}/guests`} locale={locale}>RSVP
-                        Guests</Link> page to register yourself guests that plan to attend from this invitation, including anyone named in the invitation. Guests added here will be considered RSVP. To RSVP your name needs to be added to the guest list for the invitation.
+                <Typography sx={{fontWeight: 'bold'}}>
+                    Only name in the list below will be included in the final invitation list.
                 </Typography>
-                <br />
-                <Typography>
-                    We will update this page with more details on what is pending for each guest.
-                </Typography>
-                <br />
-            </Container>
-        </section>
-        <Home styles={homeStyle} />
-        <Events />
-        <Travel styles={travelStyle} />
-        <Story />
+                <br/>
+                <Typography><span className={'label-left'}>Number of people invited: </span>{guest_count}</Typography>
+                <GuestForm registration_key={registration_key}/>
+                <GuestListEdit registration_key={registration_key} guests={guests} guest_count={guest_count}
+                               edit={edit}/>
+            </>)}
+        </Container>
     </>)
 }
