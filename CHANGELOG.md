@@ -1,3 +1,10 @@
+# [0.21.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.20.8...v0.21.0) (2022-12-22)
+
+
+### Features
+
+* adding alert for incomplete rsvp ([a0f8997](https://github.com/LucasCarioca/wedding-registration-guest/commit/a0f8997ac33523bf3ba542854f0e6bb056f2bdf3))
+
 ## [0.20.8](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.20.7...v0.20.8) (2022-12-21)
 
 
