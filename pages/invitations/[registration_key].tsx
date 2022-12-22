@@ -1,7 +1,7 @@
 import { Container, Typography } from "@mui/material"
 import Link from "next/link"
 import { useRouter } from "next/router"
-import { getInvitation } from "../../src/services/invitation.service"
+import {getAllGuests, getInvitation} from "../../src/services/invitation.service"
 
 import Events from "../../src/components/index/Events";
 import Home from "../../src/components/index/Home";
@@ -10,16 +10,23 @@ import Travel from "../../src/components/index/Travel";
 import homeStyle from '../../styles/Home.module.css'
 import travelStyle from '../../styles/Travel.module.css'
 import Head from "next/head";
+import {Invitation} from "../../src/models/invitation";
+import {Guest} from "../../src/models/guest";
+import RSVPAlert from "../../src/components/invitations/RSVPAlert";
 
 export async function getServerSideProps(context: any) {
     const { registration_key } = context.query
-    const invitation = await getInvitation(registration_key);
-    return { props: invitation }
+    const invitation = await getInvitation(registration_key)
+    const guests = await getAllGuests(registration_key)
+    return { props: { invitation, guests } }
 }
 
-type props = { registration_key: string, name: string }
+type props = {
+    invitation: Invitation
+    guests: Guest[]
+}
 
-export default function Invitation({ registration_key, name }: props) {
+export default function InvitationPage({invitation :{ registration_key, name, guest_count }, guests}: props) {
     const { locale } = useRouter()
     return (<>
         <Head>
@@ -28,10 +35,12 @@ export default function Invitation({ registration_key, name }: props) {
         </Head>
         <br />
         <br />
-        <section className={'alternate-color'}>
+        <section>
             <Container>
                 <br />
                 <Typography variant={'h3'}>{name}</Typography>
+                <br />
+                <RSVPAlert registration_key={registration_key} guests={guests} guest_count={guest_count}/>
                 <br />
                 <Typography>
                     You have been invited to Karen and Lucas&apos;s wedding on September 13th 2023, at Lake Como Italy. This

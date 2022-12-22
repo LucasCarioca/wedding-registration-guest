@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 import { NextResponse } from 'next/server'
 import { useState } from "react";
 
-export default function InvitationSearch() {
+export default function InvitationSearchPage() {
   const { push } = useRouter()
   const { register, handleSubmit, formState: { errors } } = useForm();
   const [error, setError] = useState('');

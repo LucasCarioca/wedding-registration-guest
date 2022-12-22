@@ -3,6 +3,8 @@ import Head from "next/head";
 import GuestForm from "../../../src/components/invitations/GuestForm";
 import GuestList from "../../../src/components/invitations/GuestList";
 import { getAllGuests, getInvitation } from "../../../src/services/invitation.service";
+import {Guest} from "../../../src/models/guest";
+import {Invitation} from "../../../src/models/invitation";
 
 export async function getServerSideProps(context: any) {
     const { registration_key } = context.query
@@ -12,11 +14,11 @@ export async function getServerSideProps(context: any) {
 }
 
 type props = {
-    invitation: { registration_key: string, guest_count: number }
-    guests: { first_name: string, last_name: string }[]
+    invitation: Invitation
+    guests: Guest[]
 }
 
-export default function Guests({ invitation: { registration_key, guest_count }, guests }: props) {
+export default function GuestsPage({ invitation: { registration_key, guest_count }, guests }: props) {
     return (<>
         <Head>
             <meta name="viewport" content="width=device-width, initial-scale=1" />

@@ -12,7 +12,7 @@ export default function Footer({ styles }: styledComponent) {
         setYear(`${new Date().getFullYear()}`)
         setVersion(`v${getAppInfo().version}`)
         setChangelog(`https://github.com/LucasCarioca/wedding-registration-guest/releases/tag/${version}`)
-    }, [])
+    }, [version])
     return (<section className={styles.footer} >
         <Typography className={styles.attribution}> Copyright & copy; Lucas De Souza {year} </Typography>
         <Typography className={styles.attribution}> <a href={changelog}> {version} </a></Typography>

@@ -3,10 +3,11 @@ import { DataGrid } from "@mui/x-data-grid";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import { deleteGuest } from "../../services/invitation.service";
+import {Guest} from "../../models/guest";
 
 type props = {
     registration_key: string,
-    guests: { first_name: string, last_name: string }[]
+    guests: Guest[]
 }
 export default function GuestList({ registration_key, guests }: props) {
     const { reload } = useRouter()

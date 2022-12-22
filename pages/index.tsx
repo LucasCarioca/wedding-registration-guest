@@ -6,7 +6,7 @@ import Travel from "../src/components/index/Travel";
 import homeStyle from '../styles/Home.module.css'
 import travelStyle from '../styles/Travel.module.css'
 
-export default function Index() { 
+export default function IndexPage() {
   return (<>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
