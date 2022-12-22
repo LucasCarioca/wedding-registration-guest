@@ -4,12 +4,12 @@ import {getAllGuests, getInvitation} from "../../src/services/invitation.service
 import {Invitation} from "../../src/models/invitation";
 import {Guest} from "../../src/models/guest";
 import GuestForm from "../../src/components/invitations/GuestForm";
-import GuestListEdit from "../../src/components/invitations/GuestListEdit";
 import {useState} from "react";
 import PersonIcon from "@mui/icons-material/Person";
 import EditIcon from "@mui/icons-material/Edit";
 import DoneIcon from '@mui/icons-material/Done';
 import {Alert} from "@mui/lab";
+import GuestListEdit from "../../src/components/invitations/GuestListEdit";
 
 export async function getServerSideProps(context: any) {
     const {registration_key} = context.query
