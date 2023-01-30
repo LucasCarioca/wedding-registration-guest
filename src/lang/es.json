@@ -27,9 +27,9 @@
 
     
     "events": [
-      {"title": "Welcome Party", "date": "Septiembre 12, 2023", "details": "Mas detalles por venir"},
-      {"title": "Dia De La Boda", "date": "Septiembre 13, 2023", "details": "Mas detalles por venir"},
-      {"title": "Evento De Despedida", "date": "Septiembre 14, 2023", "details": "Mas detalles por venir"}
+      {"title": "Welcome Party", "date": "Septiembre 12, 2023", "details": "Mas detalles por venir", "time": "7:00 PM - 11:00 PM", "locationName": "Blanco Lounge Bar e Restaurante", "locationAddress": "Via al Lido, 2, 23828 Perledo LC, Italy", "attire": "Semiformal"},
+      {"title": "Dia De La Boda", "date": "Septiembre 13, 2023", "details": "Mas detalles por venir", "time": "3:30 PM - 11:00 PM", "locationName": "Hotel Vila Cipressi", "locationAddress": "Via 4 Novembre, 22, 23829, Italy", "attire": "Black Tie"},
+      {"title": "Evento De Despedida", "date": "Septiembre 14, 2023", "details": "Mas detalles por venir", "time": "5:15 PM - 9:30 PM", "locationName": "", "locationAddress": "Contrada del Porto, 1, 23829 Varenna LC, Italy", "attire": "Summer Chic"}
     ],
 
     "story": [

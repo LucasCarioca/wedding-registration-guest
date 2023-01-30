@@ -14,11 +14,23 @@ export default function Events() {
                 <Typography className={'home-section-sub-title'} variant={'h4'}>
                     {event.title}
                 </Typography>
-                <Typography className={'home-section-main-paragraph'}>
+                <Typography className={'event-section-main-paragraph'}>
                     {event.date}
                 </Typography>
-                <Typography className={'home-section-main-paragraph'}>
-                    {event.details}
+                {event.locationName.length > 0 ? (<>
+                    <Typography className={'event-section-main-paragraph'}>
+                        {event.locationName}
+                    </Typography>
+                    <Typography className={'event-section-main-paragraph'}>
+                        {event.locationAddress}
+                    </Typography>
+                </>) : (<>
+                    <Typography className={'event-section-main-paragraph'}>
+                        {event.locationAddress}
+                    </Typography>
+                </>)}
+                <Typography className={'event-section-main-paragraph'}>
+                    {event.attire}
                 </Typography>
                 {(i < dict.events.length - 1) && <hr />}
             </div>))}

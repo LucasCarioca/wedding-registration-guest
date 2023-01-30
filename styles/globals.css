@@ -78,6 +78,14 @@ hr {
   text-align: center;
 }
 
+.event-section-main-paragraph {
+  font-size: 1.1rem !important;
+  text-shadow: .5rem .5rem 1rem whitesmoke;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 @media only screen and (max-width: 800px) {
   section {
     padding-left: 20vw;

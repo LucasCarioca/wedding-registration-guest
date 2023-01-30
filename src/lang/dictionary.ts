@@ -17,6 +17,10 @@ export type Dictionary = {
         title: string;
         date: string;
         details: string;
+        time: string;
+        locationName: string;
+        locationAddress: string;
+        attire: string;
     }[]
 
     accommodationsTitle: string;
