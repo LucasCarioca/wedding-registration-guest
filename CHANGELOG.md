@@ -1,3 +1,10 @@
+# [0.24.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.23.0...v0.24.0) (2023-01-30)
+
+
+### Features
+
+* adding time ([2c207cf](https://github.com/LucasCarioca/wedding-registration-guest/commit/2c207cfb7fb8e81398aabac2c8a313a5badfab82))
+
 # [0.23.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.22.0...v0.23.0) (2023-01-30)
 
 
