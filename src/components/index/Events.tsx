@@ -19,6 +19,9 @@ export default function Events() {
                 </Typography>
                 {event.locationName.length > 0 ? (<>
                     <Typography className={'event-section-main-paragraph'}>
+                        {event.time}
+                    </Typography>
+                    <Typography className={'event-section-main-paragraph'}>
                         {event.locationName}
                     </Typography>
                     <Typography className={'event-section-main-paragraph'}>
