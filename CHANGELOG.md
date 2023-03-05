@@ -1,3 +1,10 @@
+## [0.24.1](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.24.0...v0.24.1) (2023-03-05)
+
+
+### Bug Fixes
+
+* bug hiding time on farewell party ([edc631d](https://github.com/LucasCarioca/wedding-registration-guest/commit/edc631df4fa228659b5e2f82809bdbf0dd8ed578))
+
 # [0.24.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.23.0...v0.24.0) (2023-01-30)
 
 
