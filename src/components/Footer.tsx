@@ -14,10 +14,10 @@ export default function Footer({ styles }: styledComponent) {
         setChangelog(`https://github.com/LucasCarioca/wedding-registration-guest/releases/tag/${version}`)
     }, [version])
     return (<section className={styles.footer} >
-        <Typography className={styles.attribution}> Copyright & copy; Lucas De Souza {year} </Typography>
+        <Typography className={styles.attribution}> Copyright &copy; Lucas De Souza {year} </Typography>
         <Typography className={styles.attribution}> <a href={changelog}> {version} </a></Typography>
         <Typography className={styles.attribution} style={{ fontSize: '.75rem' }
-        }> Anter Font made from <a href="http://www.onlinewebfonts.com" > Online Web Fonts </a> is licensed by CC BY 3.0</Typography>
+        }> Anter Font made from <a href="http://www.onlinewebfonts.com" > "Online Web Fonts" </a> is licensed by CC BY 3.0</Typography>
         <Typography className={styles.languages}>
             <LanguagePicker />
         </Typography>
