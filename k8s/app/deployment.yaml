@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: wedding-guest
-          image: ghcr.io/lucascarioca/wedding-registration-guest:v0.24.0
+          image: ghcr.io/lucascarioca/wedding-registration-guest:v0.25.0
           ports:
             - containerPort: 3000
               name: w-r-g-http
