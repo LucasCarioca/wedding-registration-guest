@@ -1,6 +1,7 @@
 {
     "travelTitle": "Viaje",
     "scheduleTitle": "Cronograma",
+    "faqTitle": "FAQ",
     "subtitle": "Noa casamos",
     "subtitle2": "Septiembre 13, 2023",
     "subtitle3": "Días hasta el gran dia",
@@ -24,7 +25,6 @@
     "travelAgent": "Quienes deseen visitar otros lugares en Europa, a partir de octubre del 2022, nuestra agente de viajes Luciane Garcia los puede asesorar comprando los pasajes, planeando el itinerario, y hospedaje",
     "transportation": "Servicio de conductor privado del Lago de Como - Milan Area",
     "eventsTitle": "Eventos",
-
     
     "events": [
       {"title": "Welcome Party", "date": "Septiembre 12, 2023", "details": "Mas detalles por venir", "time": "7:00 PM - 11:00 PM", "locationName": "Blanco Lounge Bar e Restaurante", "locationAddress": "Via al Lido, 2, 23828 Perledo LC, Italy", "attire": "Semiformal"},
@@ -38,5 +38,9 @@
       {"name": "Inicio de nuestra vida juntos", "text": "Rentamos nuestro primer apartamento y nos mudamos con nuestros hijos perrunos, Toto Y Chloe", "date": "Mayo del 2015", "image": ""},
       {"name": "Hogar dulce hogar", "text": "Compramos nuestra primera casa, y por fin le dimos a nuestros hijos perrunos el patio trasero que merecen", "date": "Abril del 2019", "image": ""},
       {"name": "Ella dijo que si", "text": "Nos comprometimos en Croacia mientras contemplábamos el atardecer más hermoso en un velero", "date": "Agosto del 2021", "image": ""}
+    ],
+
+    "faq": [
+      {"question": "this is the question", "answer": "this is the answer"}
     ]
   }

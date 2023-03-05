@@ -5,6 +5,7 @@ export type Dictionary = {
     travelTitle: string;
     ourStoryTitle: string;
     registryTitle: string;
+    faqTitle: string;
     invitationTitle: string;
 
     subtitle: string;
@@ -12,16 +13,6 @@ export type Dictionary = {
     subtitle3: string;
 
     theWedding: string;
-
-    events: {
-        title: string;
-        date: string;
-        details: string;
-        time: string;
-        locationName: string;
-        locationAddress: string;
-        attire: string;
-    }[]
 
     accommodationsTitle: string;
     accommodations: string;
@@ -31,10 +22,25 @@ export type Dictionary = {
     travelAgentTitle: string;
     travelAgent: string;
 
+    events: {
+        title: string;
+        date: string;
+        details: string;
+        time: string;
+        locationName: string;
+        locationAddress: string;
+        attire: string;
+    }[];
+
     story: {
         name: string;
         text: string;
         date: string;
         image: string;
-    }[]
+    }[];
+
+    faq: {
+        question: string;
+        answer:string;
+    }[];
 }

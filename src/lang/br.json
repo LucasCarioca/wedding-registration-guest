@@ -1,6 +1,7 @@
 {
     "travelTitle": "Viagem",
     "scheduleTitle": "Cronograma",
+    "faqTitle": "FAQ",
     "subtitle": "Por favor, junte-se a nos para a nossa festa de casamento em",
     "subtitle2": "Setembro 13, 2023",
     "subtitle3": "Dias até o grande dia",
@@ -38,5 +39,9 @@
       {"name": "Start of our life together", "text": "We got our first apartment and moved out together with our two dogs, Toto & Chloe", "date": "May 2015", "image": ""},
       {"name": "Home sweet home", "text": "We bought our first home and gave our dogs the backyard they deserved", "date": "April 2019", "image": ""},
       {"name": "She said yes", "text": "We got engaged while watching the most beautiful sunset on a sailboat in Croatia", "date": "August 2021", "image": ""}
+    ],
+
+    "faq": [
+      {"question": "this is the question", "answer": "this is the answer"}
     ]
   }

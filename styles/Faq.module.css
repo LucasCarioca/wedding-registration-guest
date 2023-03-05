@@ -1,0 +1,11 @@
+.title {
+    font-size: 3rem !important;
+    margin-bottom: 5rem;
+}
+
+.content-home {
+    padding-top: 10vh;
+    vertical-align: middle;
+    text-align: center;
+    min-height: 100vh;
+}
