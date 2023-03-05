@@ -1,3 +1,16 @@
+# [0.25.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.24.1...v0.25.0) (2023-03-05)
+
+
+### Bug Fixes
+
+* fix linting on footer ([ea807ee](https://github.com/LucasCarioca/wedding-registration-guest/commit/ea807eef48fe34a82087e78a06d7b92b18f60d9d))
+* footer bug ([c741aa1](https://github.com/LucasCarioca/wedding-registration-guest/commit/c741aa1daec6233e092185a36376ed4d06814398))
+
+
+### Features
+
+* adding unlisted faq page ([eae15d0](https://github.com/LucasCarioca/wedding-registration-guest/commit/eae15d0bbca4e4058cc2acefc986617ae8574051))
+
 ## [0.24.1](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.24.0...v0.24.1) (2023-03-05)
 
 
