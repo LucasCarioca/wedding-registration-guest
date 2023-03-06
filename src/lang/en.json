@@ -44,6 +44,55 @@
     ],
 
     "faq": [
-      {"question": "this is the question", "answer": "this is the answer"}
+      {
+        "question": "What is the dress code for the ceremony and reception?",
+        "answer": [
+          {"title": "Man","value":"Black tuxedo or formal suit, black tie or bowtie, black leather shoes or black loafers."},
+          {"title": "Women","value":"Gown or long formal dress. Please refrain from wearing the colors white or light blue as these are the respective bridal colors."}
+        ]
+      },
+      {
+        "question": "What is the dress code for the welcome event?",
+        "answer": [
+          {"title": "Man","value":"Seasonal sport coat or blazer, dress shirt, casual button-down shirt, open-collar or polo shirt, slacks."},
+          {"title": "Women","value":"Cocktail dress, afternoon dress, midi or maxi dress, Long dressy skirt and top, dressy separates."}
+        ]
+      },
+      {
+        "question": "What is the dress code for the farewell event?",
+        "answer": [
+          {"value":"Summer-chic, think of what you’d wear to a nice restaurant at a tropical destination."}
+        ]
+      },
+      {
+        "question": "What will the weather be like for this time of year?",
+        "answer": [
+          {"value":"Expect warm temperatures of around 80 degrees Fahrenheit or 25-27 degrees celsius."}
+        ]
+      },
+      {
+        "question": "Will the ceremony and reception be indoors or outdoors?",
+        "answer": [
+          {"value":"The plan to have the ceremony and reception outdoors, however we can move indoors if it rains."}
+        ]
+      },
+      {
+        "question": "When should we arrive in Europe?",
+        "answer": [
+          {"value":"We highly suggest you arrive a few days before the welcome event, this will allow you to adjust to the different timezone and avoid  jet-lag."}
+        ]
+      },
+      {
+        "question": "Where should we stay?",
+        "answer": [
+          {"value":"We highly recommend you stay in Varenna, staying anywhere that’s not in Varenna would require you to hire a boat transfer or rent a car to get to Varenna. Lake Como is pretty big and getting around requires a lot of planning in advance. There are plenty of Airbnbs and hotel options to choose from in Varenna, we recommend you book early."}
+        ]
+      },
+      {
+        "question": "Can I bring a date?",
+        "answer": [
+          {"value":"Our wedding is strictly RSVP only. We will only able to accommodate those listed on your invitation."}
+        ]
+      }
     ]
   }

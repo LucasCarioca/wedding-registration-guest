@@ -41,6 +41,48 @@
     ],
 
     "faq": [
-      {"question": "this is the question", "answer": "this is the answer"}
+      {
+        "question": "¿Cuál es el código de vestimenta para la ceremonia y la recepción?",
+        "answer": [
+          {"title": "Hombres","value":"Esmoquin negro o traje formal, corbata negra o corbatín, zapatos de cuero negro o mocasines negros."},
+          {"title": "Mujeres","value":"Vestido formal largo. Favor abstenerse de usar los colores blanco o azul claro, ya que estos son los colores respectivos del cortejo nupcial."}
+        ]
+      },{
+        "question": "¿Cuál es el código de vestimenta para el evento de bienvenida?",
+        "answer": [
+          {"title": "Hombres","value":"Blazer, camisa de vestir, camisa informal con botones, camisa tipo polo, pantalones de vestir."},
+          {"title": "Mujeres","value":"Vestido de cóctel, vestido midi o maxi, falda y top largos elegantes, prendas separadas elegantes."}
+        ]
+      },{
+        "question": "¿Cuál es el código de vestimenta para el evento de despedida?",
+        "answer": [
+          {"value":"Chic de verano, piensa en lo que te pondrías para ir a un buen restaurante en un destino tropical."}
+        ]
+      },{
+        "question": "¿Cómo estará el tiempo en esta época del año?",
+        "answer": [
+          {"value":"Se pueden esperar temperaturas cálidas alrededor de 80 grados Fahrenheit o 25-27 grados centígrados."}
+        ]
+      },{
+        "question": "¿La ceremonia y la recepción serán adentro o al aire libre?",
+        "answer": [
+          {"value":"El plan es tener la ceremonia y la recepción al aire libre, sin embargo, podemos mudarnos adentro en caso de lluvia."}
+        ]
+      },{
+        "question": "¿Cuándo deberíamos llegar a Europa?",
+        "answer": [
+          {"value":"Les sugerimos llegar al menos 5 días antes del evento de bienvenida, esto les permitirá adaptarse al cambio de horario."}
+        ]
+      },{
+        "question": "¿Dónde deberíamos quedarnos?",
+        "answer": [
+          {"value":"Les recomendamos encarecidamente que se alojen en Varenna, si se alojan en cualquier lugar que no sea en Varenna, sería necesario contratar un traslado en barco o alquilar un carro para llegar a Varenna. El lago de Como es bastante grande y moverse requiere de mucha planificación. Hay muchas opciones de Airbnb y hoteles para elegir en Varenna, les recomendamos que reserven con anticipación."}
+        ]
+      },{
+        "question": "¿Puedo traer un invitado?",
+        "answer": [
+          {"value":"Nuestra boda es estrictamente RSVP. Solo podremos acomodar a las personas nombradas en su invitación."}
+        ]
+      }
     ]
   }

@@ -26,11 +26,11 @@ export default function Faq() {
     </>)
 }
 
-function FaqItem({question, answer}: { question: string, answer: string }) {
+function FaqItem({question, answer}: { question: string, answer: { title: string | undefined, value: string }[] }) {
     return (<>
         <Typography className={'home-section-sub-title'} variant={'h4'}>{question}</Typography>
-        <Typography className={'event-section-main-paragraph'}>
-            {answer}
-        </Typography>
+        {answer.map((item, i) => (<Typography key={i} className={'event-section-main-paragraph'}>
+            {item.title && (`${item.title}: `)}{item.value}
+        </Typography>))}
     </>)
 }

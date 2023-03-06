@@ -41,6 +41,9 @@ export type Dictionary = {
 
     faq: {
         question: string;
-        answer:string;
+        answer: {
+            title: string | undefined;
+            value: string;
+        }[];
     }[];
 }
