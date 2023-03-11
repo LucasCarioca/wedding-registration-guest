@@ -47,14 +47,14 @@
       {
         "question": "What is the dress code for the ceremony and reception?",
         "answer": [
-          {"title": "Man","value":"Black tuxedo or formal suit, black tie or bowtie, black leather shoes or black loafers."},
-          {"title": "Women","value":"Gown or long formal dress. Please refrain from wearing the colors white or light blue as these are the respective bridal colors."}
+          {"title": "Men","value":"Tuxedo or formal suit, tie or bowtie, leather shoes or loafers."},
+          {"title": "Women","value":"Gown or long formal dress. Please refrain from wearing the color light blue as this is the respective bridal colors."}
         ]
       },
       {
         "question": "What is the dress code for the welcome event?",
         "answer": [
-          {"title": "Man","value":"Seasonal sport coat or blazer, dress shirt, casual button-down shirt, open-collar or polo shirt, slacks."},
+          {"title": "Men","value":"Seasonal sport coat or blazer, dress shirt, casual button-down shirt, open-collar or polo shirt, slacks."},
           {"title": "Women","value":"Cocktail dress, afternoon dress, midi or maxi dress, Long dressy skirt and top, dressy separates."}
         ]
       },

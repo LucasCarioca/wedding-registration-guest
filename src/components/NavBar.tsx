@@ -21,7 +21,7 @@ function NavBar({ styles }: styledComponent) {
         { url: '/#travel', label: dict.theWeddingTitle.toUpperCase() },
         { url: '/#our-story', label: dict.ourStoryTitle.toUpperCase() },
         { url: 'https://www.zola.com/registry/lucasandkaren2023', label: dict.registryTitle.toUpperCase() },
-        // { url: '/faq', label: dict.faqTitle.toUpperCase() },
+        { url: '/faq', label: dict.faqTitle.toUpperCase() },
         { url: '/invitations', label: dict.invitationTitle.toUpperCase() },
     ];
 

@@ -44,8 +44,8 @@
       {
         "question": "¿Cuál es el código de vestimenta para la ceremonia y la recepción?",
         "answer": [
-          {"title": "Hombres","value":"Esmoquin negro o traje formal, corbata negra o corbatín, zapatos de cuero negro o mocasines negros."},
-          {"title": "Mujeres","value":"Vestido formal largo. Favor abstenerse de usar los colores blanco o azul claro, ya que estos son los colores respectivos del cortejo nupcial."}
+          {"title": "Hombres","value":"Esmoquin o traje formal, corbata o corbatín, zapatos de cuero negro o mocasines."},
+          {"title": "Mujeres","value":"Vestido formal largo. Favor abstenerse de usar el color azul claro, ya que ese es el color respectivo del cortejo nupcial."}
         ]
       },{
         "question": "¿Cuál es el código de vestimenta para el evento de bienvenida?",
