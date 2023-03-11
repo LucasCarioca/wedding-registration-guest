@@ -1,3 +1,10 @@
+# [0.27.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.26.0...v0.27.0) (2023-03-11)
+
+
+### Features
+
+* update faq and add nav link ([83b92d8](https://github.com/LucasCarioca/wedding-registration-guest/commit/83b92d856725541d4c06bbe5f75d03285e3826b9))
+
 # [0.26.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.25.0...v0.26.0) (2023-03-06)
 
 
