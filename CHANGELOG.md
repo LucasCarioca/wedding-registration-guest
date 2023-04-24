@@ -1,3 +1,10 @@
+## [0.27.1](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.27.0...v0.27.1) (2023-04-24)
+
+
+### Bug Fixes
+
+* verbiage faq ([5d45356](https://github.com/LucasCarioca/wedding-registration-guest/commit/5d4535625649370f07a51328f31979266704eade))
+
 # [0.27.0](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.26.0...v0.27.0) (2023-03-11)
 
 
