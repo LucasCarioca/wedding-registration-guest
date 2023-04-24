@@ -46,20 +46,20 @@
         "question": "What is the dress code for the ceremony and reception?",
         "answer": [
           {"title": "Men","value":"Tuxedo or formal suit, tie or bowtie, leather shoes or loafers."},
-          {"title": "Women","value":"Gown or long formal dress. Please refrain from wearing the color light blue as this is the respective bridal colors."}
+          {"title": "Women","value":"Gown or long formal dress. Block heels are recommended as the wedding will be in a pebbled garden. Please refrain from wearing the color light blue as this is the respective bridal color."}
         ]
       },
       {
         "question": "What is the dress code for the welcome event?",
         "answer": [
           {"title": "Men","value":"Seasonal sport coat or blazer, dress shirt, casual button-down shirt, open-collar or polo shirt, slacks."},
-          {"title": "Women","value":"Cocktail dress, afternoon dress, midi or maxi dress, Long dressy skirt and top, dressy separates."}
+          {"title": "Women","value":"Cocktail dress, afternoon dress, midi or maxi dress, long dressy skirt and top, dressy separates."}
         ]
       },
       {
         "question": "What is the dress code for the farewell event?",
         "answer": [
-          {"value":"Summer-chic, think of what you’d wear to a nice restaurant at a tropical destination."}
+          {"value":"En Blanc. Everybody wear white."}
         ]
       },
       {
@@ -77,13 +77,13 @@
       {
         "question": "When should we arrive in Europe?",
         "answer": [
-          {"value":"We highly suggest you arrive a few days before the welcome event, this will allow you to adjust to the different timezone and avoid  jet-lag."}
+          {"value":"We highly suggest you arrive a few days before the welcome event, this will allow you to adjust to the different timezone and avoid jet-lag."}
         ]
       },
       {
         "question": "Where should we stay?",
         "answer": [
-          {"value":"We highly recommend you stay in Varenna, staying anywhere that’s not in Varenna would require you to hire a boat transfer or rent a car to get to Varenna. Lake Como is pretty big and getting around requires a lot of planning in advance. There are plenty of Airbnbs and hotel options to choose from in Varenna, we recommend you book early."}
+          {"value":"We highly recommend you stay in Varenna, staying anywhere that’s not in Varenna would require you to hire a boat transfer or rent a car to get to Varenna. Lake Como is pretty big and getting around requires a lot of planning in advance. There are plenty of Airbnbs and hotel options to choose from in Varenna, we recommend you book months early due to the high season."}
         ]
       },
       {
