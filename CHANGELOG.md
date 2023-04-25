@@ -1,3 +1,10 @@
+## [0.27.3](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.27.2...v0.27.3) (2023-04-25)
+
+
+### Bug Fixes
+
+* attire update ([f7ef0ec](https://github.com/LucasCarioca/wedding-registration-guest/commit/f7ef0ecc982e05c4b64ac03f02a63c344a9b4f7b))
+
 ## [0.27.2](https://github.com/LucasCarioca/wedding-registration-guest/compare/v0.27.1...v0.27.2) (2023-04-25)
 
 
